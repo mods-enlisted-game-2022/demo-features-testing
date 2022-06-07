@@ -1,0 +1,1453 @@
+import{
+  scene:t="content/enlisted/gamedata/scenes/_volokolamsk_sounds.blk"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1791.53, 0.85672, -869.661]]
+  battle_area_polygon_point__forBattleAreaId:t="as1"
+  battle_area_polygon_point__id:t="as1p1"
+  battle_area_polygon_point__nextId:t="as1p2"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1615.11, 0.676855, -1007.21]]
+  battle_area_polygon_point__forBattleAreaId:t="as1"
+  battle_area_polygon_point__id:t="as1p2"
+  battle_area_polygon_point__nextId:t="as1p3"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1540.04, 0.828079, -892.596]]
+  battle_area_polygon_point__forBattleAreaId:t="as1"
+  battle_area_polygon_point__id:t="as1p3"
+  battle_area_polygon_point__nextId:t="as1p4"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1722.49, 0.610847, -783.513]]
+  battle_area_polygon_point__forBattleAreaId:t="as1"
+  battle_area_polygon_point__id:t="as1p4"
+  battle_area_polygon_point__nextId:t="as1p1"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1841.98, 0.0803528, -839.732]]
+  battle_area_polygon_point__forBattleAreaId:t="as2"
+  battle_area_polygon_point__id:t="as2p1"
+  battle_area_polygon_point__nextId:t="as2p2"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1553.94, 1.45386, -1010.71]]
+  battle_area_polygon_point__forBattleAreaId:t="as2"
+  battle_area_polygon_point__id:t="as2p2"
+  battle_area_polygon_point__nextId:t="as2p3"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1509.17, 0.469925, -950.51]]
+  battle_area_polygon_point__forBattleAreaId:t="as2"
+  battle_area_polygon_point__id:t="as2p3"
+  battle_area_polygon_point__nextId:t="as2p4"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1777.57, 0.910614, -738.578]]
+  battle_area_polygon_point__forBattleAreaId:t="as2"
+  battle_area_polygon_point__id:t="as2p4"
+  battle_area_polygon_point__nextId:t="as2p1"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1889.96, 6.34384, -826.786]]
+  battle_area_polygon_point__forBattleAreaId:t="as3"
+  battle_area_polygon_point__id:t="as3p1"
+  battle_area_polygon_point__nextId:t="as3p2"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1518.2, 0.921783, -1047.52]]
+  battle_area_polygon_point__forBattleAreaId:t="as3"
+  battle_area_polygon_point__id:t="as3p2"
+  battle_area_polygon_point__nextId:t="as3p3"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1461.73, 1.00902, -976.257]]
+  battle_area_polygon_point__forBattleAreaId:t="as3"
+  battle_area_polygon_point__id:t="as3p3"
+  battle_area_polygon_point__nextId:t="as3p4"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1838.2, 0.410919, -678.958]]
+  battle_area_polygon_point__forBattleAreaId:t="as3"
+  battle_area_polygon_point__id:t="as3p4"
+  battle_area_polygon_point__nextId:t="as3p1"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1272.45, 0.677795, -906.42]]
+  battle_area_polygon_point__forBattleAreaId:t="ac1"
+  battle_area_polygon_point__id:t="ac1p1"
+  battle_area_polygon_point__nextId:t="ac1p2"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1549.89, 0.0529785, -848.144]]
+  battle_area_polygon_point__forBattleAreaId:t="ac1"
+  battle_area_polygon_point__id:t="ac1p2"
+  battle_area_polygon_point__nextId:t="ac1p3"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1666.7, 0.478851, -994.246]]
+  battle_area_polygon_point__forBattleAreaId:t="ac1"
+  battle_area_polygon_point__id:t="ac1p3"
+  battle_area_polygon_point__nextId:t="ac1p4"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1416.8, 1.19294, -1107.51]]
+  battle_area_polygon_point__forBattleAreaId:t="ac1"
+  battle_area_polygon_point__id:t="ac1p4"
+  battle_area_polygon_point__nextId:t="ac1p1"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1554.46, 0.0907974, -900.602]]
+  battle_area_polygon_point__forBattleAreaId:t="ax2xx"
+  battle_area_polygon_point__id:t="ax2xxp1"
+  battle_area_polygon_point__nextId:t="ax2xxp2"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1510.02, 0.0908127, -708.757]]
+  battle_area_polygon_point__forBattleAreaId:t="ax2xx"
+  battle_area_polygon_point__id:t="ax2xxp2"
+  battle_area_polygon_point__nextId:t="ax2xxp3"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1648.74, 0.0907459, -859.953]]
+  battle_area_polygon_point__forBattleAreaId:t="ax2xx"
+  battle_area_polygon_point__id:t="ax2xxp3"
+  battle_area_polygon_point__nextId:t="ax2xxp1"
+}
+
+entity{
+  _template:t="poly_battle_area"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1728.15, 0.757579, -873.735]]
+  battleAreaId:t="as1"
+  active:b=yes
+  battle_area__isVisible:b=yes
+  groupName:t="sector_1"
+  battle_area__team:i=2
+
+  "battleAreaPoints:list<p2>"{}
+}
+
+entity{
+  _template:t="poly_battle_area"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1727.52, 0.754086, -872.851]]
+  battleAreaId:t="as2"
+  groupName:t="sector_2"
+  battle_area__team:i=2
+}
+
+entity{
+  _template:t="poly_battle_area"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1726.9, 0.739098, -871.891]]
+  battleAreaId:t="as3"
+  groupName:t="sector_3"
+  battle_area__team:i=2
+}
+
+entity{
+  _template:t="poly_battle_area"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1726.3, 0.727949, -871.178]]
+  battleAreaId:t="ac1"
+  battle_area__team:i=1
+}
+
+entity{
+  _template:t="poly_battle_area"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1512.52, 0.982384, -751.114]]
+  battleAreaId:t="ax2xx"
+  battle_area__team:i=2
+  groupName:t="ax2xx"
+  active:b=no
+}
+
+entity{
+  _template:t="static_cam"
+  camera__active:b=yes
+  transform:m=[[-0.511102, 0, -0.859521] [0.0828877, 0.995339, -0.049288] [0.855514, -0.0964348, -0.508719] [-1722.91, 83.8932, -1049.07]]
+}
+
+entity{
+  _template:t="respawn_camera"
+  respawnCameraForTeam:i=1
+  moveCameraToHeight:r=150
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-15.06, 156.227, 1178.48]]
+}
+
+entity{
+  _template:t="respawn_camera"
+  respawnCameraForTeam:i=2
+  moveCameraToHeight:r=150
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-674.431, 162.341, 1643.75]]
+}
+
+entity{
+  _template:t="minimap_battle_of_moscow_volokolamsk_countryside_winter"
+}
+
+entity{
+  _template:t="wind"
+}
+
+entity{
+  _template:t="postfx_color_grading_tonemap_death_alive_enlisted"
+}
+
+entity{
+  _template:t="shaderVars"
+
+  "shader_vars__vars:object"{
+    hmap_displacement_up:r=0.3
+    ocean1:c=142, 137, 71, 0
+    ocean0:c=76, 63, 5, 0
+    ocean_density:r=0.1
+    land_selfillum_worldscale:r=0.9
+    river1:c=142, 137, 71, 0
+    river0:c=76, 63, 5, 0
+    hmap_displacement_down:r=-0.15
+    puddle_flat_hmap_reduce:r=0.03
+    autodetect_land_selfillum_color:p4=0.53, 0, 0, 0.16
+    paint_details_tex:t="volokolamsk_building_colors_tex_palette*"
+    land_selfillum_strength:r=32
+    water_color_noise_size:r=71
+    river_density:r=0.3
+  }
+}
+
+entity{
+  _template:t="postfx_roundctrl"
+}
+
+entity{
+  _template:t="door_mult_ent_generator"
+  ri_extra_gen__blk:t="content/e_moscow/gamedata/volokolamsk_doors.blk"
+}
+
+entity{
+  _template:t="session_finalizer"
+  session_finalizer__timer:r=10
+}
+
+entity{
+  _template:t="level"
+  level__blk:t="content/enlisted/levels/battle_of_moscow_volokolamsk_countryside_winter.blk"
+  level__timeRange:p2=5, 19.2
+
+  "level__weatherChoice:object"{
+    "content/common/gamedata/weather/weather_small_overcast.blk":r=1
+  }
+
+  "level__timeVec:array"{
+    level__timeVec:r=16
+  }
+}
+
+entity{
+  _template:t="water"
+  water__strength:r=1.3
+}
+
+entity{
+  _template:t="rendinsts_removes"
+
+  "rirmv:array"{
+    "rirmv:object"{
+      name:t="haystack_b"
+      tm:m=[[0.999996, 0.00277728, 5.42402e-06] [-0.00277728, 0.999989, 0.00390589] [5.42402e-06, -0.00390589, 0.999992] [-1725.08, 0.676456, -862.361]]
+    }
+
+    "rirmv:object"{
+      name:t="haystack_c"
+      tm:m=[[-0.300704, 0.0033868, -0.953712] [0.00114673, 0.999994, 0.00318962] [0.953717, -0.000134468, -0.300706] [-1711.72, 0.706161, -870.423]]
+    }
+
+    "rirmv:object"{
+      name:t="haystack_b"
+      tm:m=[[-0.500001, -0.00218892, 0.866022] [0.00114673, 0.999994, 0.00318962] [-0.866024, 0.00258791, -0.499996] [-1714.28, 0.696121, -867.993]]
+    }
+
+    "rirmv:object"{
+      name:t="haystack_b"
+      tm:m=[[0.17365, 0.00294203, -0.984804] [0.00114673, 0.999994, 0.00318962] [0.984807, -0.00168318, 0.173646] [-1711.41, 0.714333, -872.445]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trailer_c"
+      tm:m=[[-3.75509e-06, -0.00341678, 0.999994] [0.00225174, 0.999992, 0.00341678] [-0.999997, 0.00225174, 3.8743e-06] [-1715.29, 0.74123, -875.853]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_f"
+      tm:m=[[0.999045, -0.0024147, -0.0436321] [0.00287712, 0.99994, 0.0105391] [0.0436041, -0.0106545, 0.998992] [-1724.26, 0.743744, -873.159]]
+    }
+
+    "rirmv:object"{
+      name:t="horse_cart_a"
+      tm:m=[[0.97629, -0.00275338, -0.216451] [0.00458199, 0.999958, 0.00794685] [0.21642, -0.00875026, 0.976261] [-1723.87, 0.772869, -876.938]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_a"
+      tm:m=[[0.0436397, -0.00480759, 0.999035] [-0.00841135, 0.999951, 0.00517946] [-0.999012, -0.00862926, 0.0435971] [-1728.78, 0.640499, -860.01]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_d"
+      tm:m=[[0.923861, 0.00805134, -0.382643] [-0.00459397, 0.99994, 0.00994831] [0.3827, -0.007433, 0.923843] [-1729.63, 0.680275, -865.953]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_f"
+      tm:m=[[0.46168, -0.0082683, 0.887009] [0.0168138, 0.999859, 0.000568807] [-0.886888, 0.0146514, 0.461753] [-1748.92, 0.763954, -855.396]]
+    }
+
+    "rirmv:object"{
+      name:t="horse_cart_a"
+      tm:m=[[0.991323, -0.0158628, -0.130486] [0.0153427, 0.99987, -0.00499022] [0.130549, 0.00294489, 0.991438] [-1746.97, 0.74189, -846.819]]
+    }
+
+    "rirmv:object"{
+      name:t="haystack_a"
+      tm:m=[[0.999987, -0.00516129, 1.3411e-05] [0.00516129, 0.999973, -0.00520533] [1.3411e-05, 0.00520533, 0.999986] [-1716.91, 0.685352, -851.928]]
+    }
+
+    "rirmv:object"{
+      name:t="horse_cart_b"
+      tm:m=[[0.422614, 0.00409222, 0.9063] [-0.00172949, 0.999992, -0.00370872] [-0.906308, -5.96046e-08, 0.422618] [-1718.83, 0.707424, -848.204]]
+    }
+
+    "rirmv:object"{
+      name:t="haystack_a"
+      tm:m=[[0.999884, 0.0152567, -0.000121832] [-0.0152567, 0.999756, -0.0159726] [-0.000121832, 0.0159726, 0.999872] [-1720.81, 0.791901, -837.026]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_1story_a_03_base"
+      tm:m=[[0.5373, 0, 0.843391] [0, 1, 0] [-0.843391, 0, 0.5373] [-1724.78, 0.727295, -843.027]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_wide_c"
+      tm:m=[[0.84339, -1.19209e-07, -0.537301] [1.78814e-07, 1.35446, -1.19209e-07] [0.537301, 0, 0.84339] [-1721.38, 2.44115, -840.475]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_wide_c"
+      tm:m=[[0.84339, -1.19209e-07, -0.537301] [1.78814e-07, 1.35446, -1.19209e-07] [0.537301, 0, 0.84339] [-1722.46, 2.44083, -842.242]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_wide_b"
+      tm:m=[[0.84339, 0, -0.537301] [0, 1.35446, 0] [0.537301, 0, 0.84339] [-1723.54, 2.40826, -843.905]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_roof_narrow_a"
+      tm:m=[[-0.216817, 0.965926, 0.141342] [0.844776, 0.270207, -0.550704] [-0.546103, 5.96046e-08, -0.837718] [-1723.55, 4.20924, -844.374]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_roof_wide_c"
+      tm:m=[[-0.218286, 0.965926, 0.139064] [0.850501, 0.270208, -0.54183] [-0.5373, 5.96046e-08, -0.843391] [-1722.18, 4.209, -842.23]]
+    }
+
+    "rirmv:object"{
+      name:t="woodpile_a"
+      tm:m=[[-0.843391, 0, 0.5373] [0, 1, 0] [-0.5373, 0, -0.843391] [-1722.49, 0.788765, -842.163]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_barrel_b"
+      tm:m=[[0.5373, 0, 0.843391] [0, 1, 0] [-0.843391, 0, 0.5373] [-1723.43, 0.786491, -843.178]]
+    }
+
+    "rirmv:object"{
+      name:t="garage_wooden_shelf_e"
+      tm:m=[[-0.808791, 0, 0.588096] [0, 1, 0] [-0.588096, 0, -0.808791] [-1723.99, 0.769581, -843.98]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_narrow_b"
+      tm:m=[[0.84339, 0, -0.537301] [5.96046e-08, -1.35446, 1.19209e-07] [-0.537301, -1.19209e-07, -0.84339] [-1724.35, 2.41639, -845.168]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_floor_b"
+      tm:m=[[-0.838077, 5.96046e-08, 0.533916] [1.19209e-07, 1, 0] [-0.537301, 5.96046e-08, -0.843391] [-1724.79, 0.727295, -843.019]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_window_1000_b"
+      tm:m=[[-0.84339, -2.98023e-07, 0.537301] [-2.38419e-07, 1, 1.78814e-07] [-0.537301, 0, -0.84339] [-1726.21, 1.71619, -842.277]]
+    }
+
+    "rirmv:object"{
+      name:t="can_b"
+      tm:m=[[-0.683784, 0, 0.729684] [0, 1, 0] [-0.729684, 0, -0.683784] [-1723.8, 2.14538, -843.64]]
+    }
+
+    "rirmv:object"{
+      name:t="can_e"
+      tm:m=[[-0.936087, 0, -0.351765] [0, 1, 0] [0.351765, 0, -0.936087] [-1723.77, 1.72458, -843.693]]
+    }
+
+    "rirmv:object"{
+      name:t="can_e"
+      tm:m=[[-0.683784, 0, 0.729684] [0, 1, 0] [-0.729684, 0, -0.683784] [-1723.8, 1.30538, -843.64]]
+    }
+
+    "rirmv:object"{
+      name:t="can_e"
+      tm:m=[[-0.945044, 0, 0.326943] [0, 1, 0] [-0.326943, 0, -0.945044] [-1723.78, 0.884583, -843.677]]
+    }
+
+    "rirmv:object"{
+      name:t="nailer_a"
+      tm:m=[[-0.273285, 0, 0.961932] [0, 1, 0] [-0.961932, 0, -0.273285] [-1723.89, 1.30882, -843.917]]
+    }
+
+    "rirmv:object"{
+      name:t="can_b"
+      tm:m=[[-0.469359, 0, 0.883007] [0, 1, 0] [-0.883007, 0, -0.469359] [-1724.19, 0.884583, -844.288]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_floor_a"
+      tm:m=[[0.838077, 5.96046e-08, -0.533916] [-1.19209e-07, 1, 0] [0.537301, 5.96046e-08, 0.84339] [-1725.89, 0.727295, -844.748]]
+    }
+
+    "rirmv:object"{
+      name:t="chisel_b"
+      tm:m=[[-0.379139, -0.00681108, 0.925314] [0.876692, -0.322606, 0.356842] [0.296081, 0.946509, 0.128284] [-1724.1, 1.74094, -844.065]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_window_1000_a"
+      tm:m=[[-0.84339, 0, 0.537302] [0, 1, 0] [-0.537302, 0, -0.84339] [-1726.19, 1.99121, -842.239]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_roof_narrow_b"
+      tm:m=[[-0.218286, 0.965926, 0.139064] [0.850501, 0.270208, -0.54183] [-0.5373, 5.96046e-08, -0.843391] [-1722.99, 4.20921, -843.497]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_window_jamb_1000_a"
+      tm:m=[[-0.843391, -2.98023e-07, 0.5373] [-2.38419e-07, 1, 1.78814e-07] [-0.5373, 0, -0.843391] [-1725.09, 1.72033, -840.462]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_floor_a"
+      tm:m=[[-0.838077, 5.96046e-08, 0.533916] [1.19209e-07, 1, 0] [-0.537301, 5.96046e-08, -0.843391] [-1723.73, 0.727295, -841.358]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_floor_b"
+      tm:m=[[0.838077, 5.96046e-08, -0.533916] [-1.19209e-07, 1, 0] [0.537301, 5.96046e-08, 0.84339] [-1722.67, 0.727295, -839.679]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_roof_wide_c"
+      tm:m=[[-0.218286, 0.965926, 0.139064] [0.850501, 0.270207, -0.54183] [-0.5373, 0, -0.843391] [-1721.1, 4.20948, -840.526]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_door_jamb_2200_a"
+      tm:m=[[0.537301, 0, 0.84339] [0, 1, 0] [-0.84339, 0, 0.537301] [-1722.15, 0.727295, -838.794]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_fence_c_a"
+      tm:m=[[-0.507234, -0.00949436, -0.861756] [-0.00481606, 0.999955, -0.00818217] [0.861795, 0, -0.507256] [-1723.86, 0.767338, -837.813]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_narrow_b"
+      tm:m=[[0.537301, 8.9407e-07, 0.84339] [-7.15256e-07, -1, 1.60933e-06] [0.84339, -1.49012e-06, -0.537301] [-1723.06, 1.99097, -838.213]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_wide_b"
+      tm:m=[[-0.84339, -1.19209e-07, 0.537302] [-1.19209e-07, 1, 5.96046e-08] [-0.646374, 0, -1.0146] [-1724.09, 1.99723, -838.952]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_fence_c_a"
+      tm:m=[[-0.384748, -0.0101131, -0.638247] [-0.00698626, 0.997204, -0.0115893] [0.856426, 0, -0.51627] [-1725.26, 0.666283, -840.172]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_window_1000_a"
+      tm:m=[[-0.843391, -2.98023e-07, 0.5373] [-2.38419e-07, 1, 1.78814e-07] [-0.5373, 0, -0.843391] [-1725.09, 1.72033, -840.462]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_narrow_b"
+      tm:m=[[-0.843391, 5.96046e-08, 0.537301] [1.19209e-07, 1, 0] [-0.537301, 5.96046e-08, -0.843391] [-1725.61, 1.99746, -841.361]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_window_1000_b"
+      tm:m=[[-0.84339, 0, 0.537302] [0, 1, 0] [-0.537302, 0, -0.84339] [-1725.05, 1.99689, -840.442]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_slope_a"
+      tm:m=[[-0.5373, 0, -0.843391] [1.19209e-07, 1, -5.96046e-08] [0.843391, -1.19209e-07, -0.5373] [-1722.1, 3.22388, -838.76]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_narrow_a"
+      tm:m=[[0.5373, 5.96046e-08, 0.843391] [0, 1, -1.19209e-07] [-0.843391, 5.96046e-08, 0.5373] [-1721.24, 2.00615, -839.377]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_fence_c_e"
+      tm:m=[[-0.505035, -0.0241786, -0.86276] [-0.0122146, 0.999708, -0.0208664] [0.863013, 0, -0.505182] [-1723.11, 0.819973, -836.541]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_door_2200_a"
+      tm:m=[[0.537301, 0, 0.84339] [5.96046e-08, 1, -5.96046e-08] [-0.875439, 1.19209e-07, 0.557718] [-1722.15, 3.08759, -838.796]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_roof_wide_b"
+      tm:m=[[0.218286, -0.965926, -0.139063] [0.850501, 0.270207, -0.541829] [0.5373, -1.19209e-07, 0.843391] [-1724.39, 4.20948, -845.695]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_upper_d"
+      tm:m=[[0.843391, -1.19209e-07, -0.5373] [1.78814e-07, 1.38847, -1.19209e-07] [0.578134, 0, 0.907489] [-1724.96, 3.53614, -846.06]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_floor_b"
+      tm:m=[[0.838077, 5.96046e-08, -0.533916] [-1.19209e-07, 1, 0] [0.51151, 5.96046e-08, 0.802908] [-1726.97, 0.727295, -846.429]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_wide_c"
+      tm:m=[[0.84339, -1.19209e-07, -0.537301] [8.9407e-07, -1.35057, 1.84774e-06] [-0.469601, -1.3113e-06, -0.737123] [-1725.71, 2.40401, -847.276]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_door_jamb_2200_a"
+      tm:m=[[0.84339, 0, -0.537301] [0, 1, 0] [0.537301, 0, 0.84339] [-1724.94, 0.727295, -846.07]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_roof_wide_a"
+      tm:m=[[-0.218286, 0.965926, 0.139064] [0.850501, 0.270207, -0.54183] [-0.5373, 0, -0.843391] [-1725.48, 4.20068, -847.393]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_wide_c"
+      tm:m=[[-0.537301, -5.96046e-08, -0.843391] [4.17233e-07, 1, -3.57628e-07] [0.843391, -5.36442e-07, -0.537301] [-1727.93, 1.99746, -846.932]]
+    }
+
+    "rirmv:object"{
+      name:t="garage_wooden_shelf_a"
+      tm:m=[[-0.65845, 0, -0.752624] [0, 1, 0] [0.752624, 0, -0.65845] [-1728.06, 0.776234, -846.449]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_fence_b_post_a"
+      tm:m=[[0.570161, 0, 0.821533] [0.00209004, 0.999997, -0.00145054] [-0.821531, 0.00254411, 0.570159] [-1729.57, 0.721828, -846.737]]
+    }
+
+    "rirmv:object"{
+      name:t="storage_box_c"
+      tm:m=[[-0.65845, 0, -0.752624] [0, 1, 0] [0.752624, 0, -0.65845] [-1728.06, 1.79467, -846.449]]
+    }
+
+    "rirmv:object"{
+      name:t="can_b"
+      tm:m=[[-0.65845, 0, -0.752624] [0, 1, 0] [0.752624, 0, -0.65845] [-1728.03, 2.08623, -846.425]]
+    }
+
+    "rirmv:object"{
+      name:t="can_d"
+      tm:m=[[-0.65845, 0, -0.752624] [0, 1, 0] [0.752624, 0, -0.65845] [-1728.28, 2.08623, -846.267]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_fence_c_post_a"
+      tm:m=[[-0.58922, -3.00407e-05, -0.807972] [0.00556684, 0.999976, -0.00409681] [0.807953, -0.00691175, -0.589206] [-1729.48, 0.721298, -846.803]]
+    }
+
+    "rirmv:object"{
+      name:t="jointer_a"
+      tm:m=[[-0.730865, 0.0114419, -0.682426] [0.00835347, 0.999935, 0.00781894] [0.682471, 1.38879e-05, -0.730912] [-1727.94, 1.48904, -846.566]]
+    }
+
+    "rirmv:object"{
+      name:t="storage_box_a"
+      tm:m=[[-0.65845, 0, -0.752624] [0, 1, 0] [0.752624, 0, -0.65845] [-1728.06, 1.19467, -846.449]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_fence_c_a"
+      tm:m=[[0.805856, -0.00287163, -0.592105] [0.00231415, 0.999996, -0.00170034] [0.592108, 0, 0.805859] [-1728.88, 0.727547, -847.241]]
+    }
+
+    "rirmv:object"{
+      name:t="can_b"
+      tm:m=[[-0.65845, 0, -0.752624] [0, 1, 0] [0.752624, 0, -0.65845] [-1727.87, 0.886234, -846.666]]
+    }
+
+    "rirmv:object"{
+      name:t="carving_knife_a"
+      tm:m=[[0.723045, 0.0381797, 0.689745] [-0.668362, 0.291077, 0.684519] [-0.174634, -0.955938, 0.235979] [-1727.89, 1.51677, -846.607]]
+    }
+
+    "rirmv:object"{
+      name:t="chisel_a"
+      tm:m=[[0.574357, -0.0497457, 0.817092] [0.02883, 0.998762, 0.0405405] [-0.818097, 0.000272036, 0.57508] [-1727.85, 1.51221, -846.724]]
+    }
+
+    "rirmv:object"{
+      name:t="can_b"
+      tm:m=[[-0.65845, 0, -0.752624] [0, 1, 0] [0.752624, 0, -0.65845] [-1728.03, 0.886234, -846.425]]
+    }
+
+    "rirmv:object"{
+      name:t="can_b"
+      tm:m=[[-0.65845, 0, -0.752624] [0, 1, 0] [0.752624, 0, -0.65845] [-1728.28, 0.886234, -846.267]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_fence_c_post_a"
+      tm:m=[[-0.796394, 0.00569803, 0.604752] [0.00459564, 0.999984, -0.00336993] [-0.604761, 9.5427e-05, -0.796407] [-1728.28, 0.711884, -847.68]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_narrow_b"
+      tm:m=[[-0.84339, 5.96046e-07, 0.537301] [7.15256e-07, 1, 0] [-0.537301, 3.57628e-07, -0.84339] [-1728.48, 1.99747, -845.974]]
+    }
+
+    "rirmv:object"{
+      name:t="can_a"
+      tm:m=[[-0.65845, 0, -0.752624] [0, 1, 0] [0.752624, 0, -0.65845] [-1727.87, 2.08623, -846.666]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_narrow_a"
+      tm:m=[[-0.843391, 5.96046e-08, 0.537301] [1.19209e-07, 1, 0] [-0.594577, 5.96046e-08, -0.933296] [-1727.86, 1.99746, -844.9]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_wide_b"
+      tm:m=[[-0.84339, 0, 0.537302] [0, 1, 0] [-0.537302, 0, -0.84339] [-1727.01, 1.99117, -843.539]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_window_jamb_1000_a"
+      tm:m=[[-0.84339, -2.98023e-07, 0.537301] [-2.38419e-07, 1, 1.78814e-07] [-0.537301, 0, -0.84339] [-1726.21, 1.71619, -842.277]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_narrow_b"
+      tm:m=[[-0.537301, 5.96046e-08, -0.84339] [0, 1, 1.19209e-07] [0.84339, 5.96046e-08, -0.537301] [-1726.58, 1.99746, -847.785]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_wall_slope_a"
+      tm:m=[[-0.5373, 0, -0.843391] [1.19209e-07, 1, -5.96046e-08] [0.843391, -1.19209e-07, -0.5373] [-1727.49, 3.22388, -847.221]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_h"
+      tm:m=[[0.342018, 0.00487888, 0.939681] [-0.000956953, 0.999988, -0.00484371] [-0.939693, 0.000757396, 0.342018] [-1723.65, 0.718857, -847.277]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_f"
+      tm:m=[[0.573572, 0.0116814, 0.819071] [-0.000632465, 0.999904, -0.0138175] [-0.819154, 0.00740725, 0.573525] [-1713.84, 0.746651, -843.721]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trailer_a"
+      tm:m=[[0.998992, -0.0110871, -0.043496] [0.0101259, 0.999701, -0.0222576] [0.0437297, 0.0217947, 0.998805] [-1705.25, 0.772198, -838.294]]
+    }
+
+    "rirmv:object"{
+      name:t="russia_waterwell_a_door_rl"
+      tm:m=[[-0.510056, 0, -0.812111] [-0.64871, 0.642788, 0.40743] [0.544333, 0.766044, -0.341874] [-1699.49, 1.905, -838.469]]
+    }
+
+    "rirmv:object"{
+      name:t="russia_waterwell_a_door_rl"
+      tm:m=[[0.513246, 0, 0.817192] [0.648711, -0.642788, -0.40743] [0.544333, 0.766045, -0.341874] [-1698.94, 1.905, -837.599]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_1story_a_06_decor_wall_front"
+      tm:m=[[0.608761, 0, 0.793353] [0, 1, 0] [-0.793353, 0, 0.608761] [-1691.77, 0.758518, -901.156]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_1story_a_06_decor_wall_back"
+      tm:m=[[-0.608762, 0, -0.793352] [0, 1, 0] [0.793352, 0, -0.608762] [-1693.56, 0.758518, -903.485]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_1story_a_06_decor_roof"
+      tm:m=[[-0.608762, 0, -0.793352] [0, 1, 0] [0.793352, 0, -0.608762] [-1692.65, 3.79509, -902.301]]
+    }
+
+    "rirmv:object"{
+      name:t="jointer_a"
+      tm:m=[[-0.819228, 2.38419e-06, 0.573466] [-0.573466, -2.98023e-06, -0.819228] [-1.78814e-07, -1, 3.8147e-06] [-1690.85, 3.17878, -902.575]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_1story_a_06_decor_wall_left"
+      tm:m=[[0.793353, 0, -0.608761] [0, 1, 0] [0.608761, 0, 0.793353] [-1691.1, 0.753048, -903.521]]
+    }
+
+    "rirmv:object"{
+      name:t="garage_wooden_shelf_b"
+      tm:m=[[-0.793353, 0, 0.608761] [0, 1, 0] [-0.608761, 0, -0.793353] [-1691.09, 0.891247, -902.834]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_1story_a_06_base"
+      tm:m=[[-0.793353, 0, 0.608761] [0, 1, 0] [-0.608761, 0, -0.793353] [-1692.68, 0.75761, -902.333]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_window_1000_b"
+      tm:m=[[-0.793352, 0, 0.608762] [0, 1, 0] [-0.608762, 0, -0.793352] [-1693.97, 1.76916, -900.772]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_decor_door_jamb_2200_a"
+      tm:m=[[0.608762, 0, 0.793352] [0, 1, 0] [-0.793352, 0, 0.608762] [-1692.51, 0.754051, -900.64]]
+    }
+
+    "rirmv:object"{
+      name:t="shed_1story_a_06_decor_wall_right"
+      tm:m=[[-0.793352, 0, 0.608762] [0, 1, 0] [-0.608762, 0, -0.793352] [-1694.21, 0.753475, -901.13]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_fence_e_post_a"
+      tm:m=[[0.544042, 0.0106727, 0.83899] [0.00851429, 0.999797, -0.0182394] [-0.839015, 0.0170664, 0.543841] [-1692.16, 0.747318, -904.876]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_barrel_b"
+      tm:m=[[-0.793353, 0, 0.608761] [0, 1, 0] [-0.608761, 0, -0.793353] [-1692.04, 0.885597, -904.182]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_f"
+      tm:m=[[-0.976292, -0.00326294, -0.216432] [-0.00233454, 0.999987, -0.00454521] [0.216444, -0.00393218, -0.976287] [-1687.99, 0.750011, -891.73]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_c"
+      tm:m=[[0.793343, -0.00307596, 0.608766] [0.00655681, 0.999972, -0.00349218] [-0.608739, 0.00676209, 0.793341] [-1686.84, 0.723991, -902.633]]
+    }
+
+    "rirmv:object"{
+      name:t="haystack_b"
+      tm:m=[[0.939655, 0.0081737, -0.342027] [-0.00928086, 0.999956, -0.00160068] [0.341998, 0.00467837, 0.939689] [-1690.9, 0.743732, -885.933]]
+    }
+
+    "rirmv:object"{
+      name:t="russia_waterwell_b_cap"
+      tm:m=[[0.249984, 0, -0.968249] [0, 1, 0] [0.968249, 0, 0.249984] [-1679.92, 1.4441, -900.558]]
+    }
+
+    "rirmv:object"{
+      name:t="russia_waterwell_b_base"
+      tm:m=[[0.813878, 0, -0.581035] [0, 1, 0] [0.581035, 0, 0.813878] [-1679.96, 0.696266, -900.557]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_d"
+      tm:m=[[0.95368, -0.00703394, 0.300741] [0.0105473, 0.999894, -0.0100602] [-0.300639, 0.0127662, 0.953653] [-1677.5, 0.649494, -903.15]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_c"
+      tm:m=[[0.84338, 0.00738728, 0.537266] [-0.00292706, 0.999954, -0.00915432] [-0.537309, 0.00614792, 0.843363] [-1675.45, 0.747334, -894.849]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trailer_a"
+      tm:m=[[0.866037, -0.0048725, -0.499955] [-0.00510585, 0.999814, -0.0185886] [0.499952, 0.0186511, 0.865852] [-1668.62, 0.662094, -902.26]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trailer_a"
+      tm:m=[[0.866025, 0, -0.5] [0, 1, 0] [0.5, 0, 0.866025] [-1670.43, 0.788128, -889.039]]
+    }
+
+    "rirmv:object"{
+      name:t="haystack_a"
+      tm:m=[[0.999993, -0.00360531, -2.563e-06] [0.00360531, 0.999992, 0.00145042] [-2.563e-06, -0.00145042, 0.999999] [-1667.71, 0.775772, -885.734]]
+    }
+
+    "rirmv:object"{
+      name:t="haystack_b"
+      tm:m=[[0.939682, -0.00451404, -0.34202] [0.00487435, 0.999988, 0.000194132] [0.342015, -0.00184953, 0.939693] [-1662.48, 0.747997, -878.869]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_a"
+      tm:m=[[0.342015, -0.00178331, 0.939693] [0.005193, 0.999987, 7.62939e-06] [-0.93968, 0.00487721, 0.34202] [-1661.59, 0.747017, -885.732]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_c"
+      tm:m=[[0.675556, -0.00816649, 0.737263] [0.00834179, 0.999959, 0.00343269] [-0.737261, 0.00383109, 0.675597] [-1662.99, 0.762341, -890.07]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trailer_a"
+      tm:m=[[0.537299, -0.00180125, -0.84339] [0.000967801, 0.999998, -0.0015192] [0.843391, 0, 0.5373] [-1657.73, 0.727093, -882.336]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_e"
+      tm:m=[[0.608761, 0, 0.793353] [0, 1, 0] [-0.793353, 0, 0.608761] [-1659.91, 0.713711, -874.508]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_e"
+      tm:m=[[0.5, 0, 0.866025] [0, 1, 0] [-0.866025, 0, 0.5] [-1654.24, 0.699036, -888.456]]
+    }
+
+    "rirmv:object"{
+      name:t="horse_cart_b"
+      tm:m=[[0.422616, -0.000804245, 0.906308] [0.00380379, 0.999992, -0.000886261] [-0.906301, 0.00382197, 0.422616] [-1652.03, 0.696575, -891.926]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_h"
+      tm:m=[[0.707105, -0.00143743, 0.707108] [0.00278902, 0.999996, -0.000756145] [-0.707103, 0.00250679, 0.707106] [-1646.76, 0.668743, -893.5]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_d"
+      tm:m=[[0.843384, 0.00263661, -0.537304] [-0.00530756, 0.99998, -0.00342399] [0.537285, 0.00573951, 0.843381] [-1645.86, 0.710545, -883.61]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_d"
+      tm:m=[[0.887003, 0.00450373, -0.461742] [-0.00336963, 0.999989, 0.00328064] [0.461751, -0.00135398, 0.887009] [-1644.21, 0.708721, -880.607]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_a"
+      tm:m=[[0.906308, 0, -0.422618] [0, 1, 0] [0.422618, 0, 0.906308] [-1631.32, 0.683388, -890.787]]
+    }
+
+    "rirmv:object"{
+      name:t="horse_cart_a"
+      tm:m=[[0.999037, 0.00486398, -0.0435998] [-0.00451845, 0.999958, 0.00801963] [0.043637, -0.00781488, 0.999017] [-1674.59, 0.776291, -864.628]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_a"
+      tm:m=[[0.843391, 0.000595212, -0.537299] [0.00087446, 0.999996, 0.00248051] [0.537299, -0.00256193, 0.843388] [-1673.44, 0.786572, -869.019]]
+    }
+
+    "rirmv:object"{
+      name:t="haystack_a"
+      tm:m=[[0.675576, -0.00903094, 0.737234] [0.00307667, 0.999951, 0.00942975] [-0.737283, -0.00410229, 0.675571] [-1672.37, 0.750576, -856.544]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_d"
+      tm:m=[[0.906304, -0.00339085, 0.422612] [0.00207591, 0.999991, 0.00357163] [-0.42262, -0.00235969, 0.906304] [-1669.63, 0.778893, -859.156]]
+    }
+
+    "rirmv:object"{
+      name:t="wooden_trash_d"
+      tm:m=[[0.737277, 0, 0.67559] [0, 1, 0] [-0.67559, 0, 0.737277] [-1665.88, 0.771954, -860.604]]
+    }
+
+    "rirmv:object"{
+      name:t="wood_debris_f"
+      tm:m=[[0.499994, 0.00336069, 0.866022] [-0.00334251, 0.999993, -0.00195074] [-0.866022, -0.00191933, 0.500002] [-1685.72, 0.700539, -853.085]]
+    }
+  }
+
+  "riunb:array"{}
+}
+
+entity{
+  _template:t="respawnChooser+respTeam2"
+  transform:m=[[0.999878, -0.0156221, -0.000122048] [0.0156226, 0.999848, 0.00781131] [0, -0.00781226, 0.99997] [-1667.49, 0.766203, -904.792]]
+  respbase__team_spawn:b=no
+  groupName:t=""
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1310.28, 0.279331, -908.866]]
+}
+
+entity{
+  _template:t="group_bidirectional_one_chain_activator"
+  activator__initialLength:i=3
+
+  "activator__activateBidirectionalChoice:object"{
+    sector_2:r=0
+    sector_3:r=0
+    sector_1:r=1
+    ax2xx:r=0
+  }
+}
+
+entity{
+  _template:t="team_ussr_winter+respawn_creators_team+team_narrator_assault_defence"
+  team__scoreCap:r=6000
+  team__score:r=9000
+  team__numZonesCaptured:i=5
+  team__roundScore:i=3
+  score_bleed__totalDomBleedOn:b=yes
+  score_bleed__totalDomZoneCount:i=0
+  score_bleed__domBleed:r=0.1
+  score_bleed__domBleedOn:b=no
+  score_bleed__totalDomBleedMul:r=1000
+  team__showEnemyHint:b=yes
+  team__capturePenalty:r=1
+}
+
+entity{
+  _template:t="team_germany_winter+respawn_creators_team+team_narrator_assault_defence"
+  team__scoreCap:r=3000
+  team__score:r=3000
+  team__squadSpawnCost:i=1
+  score_bleed__staticBleed:r=0.6
+  team__roundScore:i=3
+  score_bleed__domBleed:r=0.1
+  score_bleed__totalDomBleedMul:r=0.1
+  score_bleed__totalDomZoneCount:i=0
+  score_bleed__domBleedOn:b=yes
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+capzone_projdecal"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1604.98, 1.03651, -932.114]]
+  groupName:t="sector_1"
+  capzone__icon:t="AAA"
+  ui_order:i=1
+  capzone__progress:r=1
+  capzone__capTeam:i=1
+  capzone__mustBeCapturedByTeam:i=2
+  active:b=yes
+  capzone__deactivateAfterCap:b=yes
+  capzone__onlyTeamCanCapture:i=2
+  capzone__decapTime:r=10
+  capzone__capTime:r=10
+  capzone__capTeamAdvantage:i=2
+  capzone__stopFailTimerForTeam:i=2
+  capzone_timer__isSet:b=yes
+  capzone_timer__timeLeft:r=1500
+  capzone__alwaysShow:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__activateAfterTeam2Cap:t="sector_2"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__curTeamDominating:i=1
+
+  "capzone__activateChoice:object"{
+    sector_2:r=1
+    ax2xx:r=1
+    sector_2x:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+capzone_projdecal"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1509.8, 0.886622, -994.745]]
+  groupName:t="sector_3"
+  capzone__icon:t="waypoint"
+  ui_order:i=10
+  capzone__capTeam:i=1
+  capzone__progress:r=0.99
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__mustBeCapturedByTeam:i=2
+  active:b=no
+  capzone__alwaysShow:b=yes
+  capzone__decapTime:r=10
+  capzone__capTime:r=10
+  capzone__capTeamAdvantage:i=2
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__narrator_zoneCapturedEnable:b=yes
+  capzone__deactivateAfterCap:b=no
+  capzone_timer__isSet:b=yes
+  capzone__stopFailTimerForTeam:i=2
+  capzone__curTeamCapturingZone:i=1
+  capzone__curTeamDominating:i=1
+  capzone__checkAllZonesInGroup:b=no
+  capzone__canCaptureOnVehicle:b=yes
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+capzone_projdecal"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1564, 0.71184, -940.007]]
+  ui_order:i=5
+  capzone__checkAllZonesInGroup:b=yes
+  groupName:t="sector_2"
+  capzone__progress:r=1
+  capzone__capTeam:i=1
+  capzone__alwaysShow:b=yes
+  capzone__icon:t="wall"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__stopFailTimerForTeam:i=2
+  capzone_timer__isSet:b=yes
+  capzone__onlyTeamCanCapture:i=-1
+  active:b=no
+  capzone__curTeamCapturingZone:i=1
+  capzone__curTeamDominating:i=1
+  capzone__mustBeCapturedByTeam:i=2
+  capzone__owningTeam:i=1
+  capzone__capTime:r=10
+  capzone__decapTime:r=10
+  capzone__activateAfterTeam2Cap:t="sector_3"
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+capzone_projdecal"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1573.73, 0.711843, -961.365]]
+  ui_order:i=5
+  capzone__checkAllZonesInGroup:b=yes
+  groupName:t="sector_2"
+  capzone__progress:r=1
+  capzone__capTeam:i=1
+  capzone__alwaysShow:b=yes
+  capzone__icon:t="wall"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__stopFailTimerForTeam:i=2
+  capzone_timer__isSet:b=yes
+  capzone__onlyTeamCanCapture:i=-1
+  active:b=no
+  capzone__curTeamCapturingZone:i=1
+  capzone__curTeamDominating:i=1
+  capzone__mustBeCapturedByTeam:i=2
+  capzone__owningTeam:i=1
+  capzone__decapTime:r=20
+  capzone__capTime:r=10
+  capzone__activateAfterTeam2Cap:t="sector_3"
+}
+
+entity{
+  _template:t="bomb_site_zone_chained_sphere"
+  transform:m=[[0.419945, -0.0131233, 0] [0.0131233, 0.419945, 0] [0, 0, 0.42015] [-1593.26, 0.993065, -931.179]]
+  ui_order:i=7
+  capzone__narrator_zoneCapturedEnable:b=no
+  "capzone__bombSiteEid:eid":i=0
+  capzone__alwaysShow:b=yes
+  groupName:t="sector_1"
+  capzone__onlyTeamCanCapture:i=2
+  capzone__plantingTeam:i=2
+  capzone__timeToPlant:r=20
+  capzone__timeToExplosion:r=10
+  capzone__timeToDefuse:r=10
+  capzone__timeToResetPlant:r=10
+  capzone__owningTeam:i=1
+  capzone__mustBeCapturedByTeam:i=2
+  capzone__capTeam:i=1
+  capzone__bombTransformLocalPos:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [0, -0.00721788, 0]]
+  capzone__bombTemplate:t="bomb_site+bomb_site_radar_hardware_animchar_04"
+  active:b=yes
+  capzone__activateAfterCap:t="sector_2"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__alwaysHide:b=no
+  capzone__icon:t="ui/skin#gaijin_logo.png"
+  capzone__capReward:r=0
+}
+
+entity{
+  _template:t="bomb_site"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1038.26, 1.22011, -1095.75]]
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+capzone_projdecal"
+  transform:m=[[0.543168, 0, 0] [0, 1, 0] [0, 0, 0.543168] [-1592.08, 1.03651, -932.151]]
+  groupName:t="sector_1"
+  capzone__icon:t="ui/skin#gaijin_logo.png"
+  ui_order:i=1
+  capzone__progress:r=0
+  capzone__capTeam:i=1
+  capzone__mustBeCapturedByTeam:i=2
+  active:b=yes
+  capzone__deactivateAfterCap:b=no
+  capzone__onlyTeamCanCapture:i=2
+  capzone__decapTime:r=10
+  capzone__capTime:r=1
+  capzone__capTeamAdvantage:i=2
+  capzone__stopFailTimerForTeam:i=2
+  capzone_timer__isSet:b=no
+  capzone_timer__timeLeft:r=1500
+  capzone__alwaysShow:b=no
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__activateAfterTeam2Cap:t="ax2xx"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__alwaysHide:b=yes
+
+  "capzone__activateChoice:object"{
+    sector_2:r=1
+    ax2xx:r=1
+    sector_2x:r=1
+  }
+}
+
+entity{
+  _template:t="game_rendinst_decor"
+  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-1590.94, 0.803162, -923.827]]
+  ri_extra__name:t="mammoth_bones_b"
+}
+
+entity{
+  _template:t="game_rendinst_decor"
+  transform:m=[[0.801656, 0, -0.597786] [0, 1, 0] [0.597785, -0, 0.801656] [-1605.95, 0.803161, -917.196]]
+  ri_extra__name:t="sandbags_wall_mid_c"
+}
+
+entity{
+  _template:t="stationary_maxim_no_shield"
+  transform:m=[[0.5, 0, 0.866025] [0, 1, -0] [-0.866025, 0, 0.5] [-1606.09, 1.80707, -917.221]]
+  gun__overheatPerShot:r=0.00502
+  gun__overheat:r=0
+}
+
+entity{
+  _template:t="game_rendinst_decor"
+  transform:m=[[0.801656, 0, -0.597786] [0, 1, 0] [0.597785, -0, 0.801656] [-1619.76, 0.803158, -923.207]]
+  ri_extra__name:t="sandbags_wall_mid_c"
+}
+
+entity{
+  _template:t="game_rendinst_decor+still_obstacle"
+  transform:m=[[0.801656, 0, -0.597786] [0, 1, 0] [0.597785, -0, 0.801656] [-1620.06, 0.803158, -923.192]]
+  ri_extra__name:t="sandboxs_c"
+}
+
+entity{
+  _template:t="t17e2"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1638.97, 0.772516, -920.755]]
+}
+
+entity{
+  _template:t="opel_olympia"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1632.66, 0.833636, -924.163]]
+}
+
+entity{
+  _template:t="appzund_ks750_common+requires_trans_render"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1624.07, 0.869332, -927.676]]
+}
+
+entity{
+  _template:t="appzund_ks750+requires_trans_render"
+  transform:m=[[0.999987, -0.00121905, 0.00502161] [0.001173, 0.999957, 0.00916385] [-0.00503257, -0.00915784, 0.999945] [-1623.85, 1.01883, -930.508]]
+}
+
+entity{
+  _template:t="game_rendinst_decor+still_obstacle"
+  transform:m=[[0.801656, 0, -0.597786] [0, 1, 0] [0.597785, -0, 0.801656] [-1606.42, 0.803161, -888.804]]
+  ri_extra__name:t="russia_water_tower_a"
+}
+
+entity{
+  _template:t="game_rendinst_decor+still_obstacle"
+  transform:m=[[0.58, -0.0540731, 0.81282] [0.030231, 0.998536, 0.0448561] [-0.814055, -0.00144414, 0.580785] [-1426.13, 1.03875, -1049.91]]
+  ri_extra__name:t="russia_trench_cover_side_base"
+}
+
+entity{
+  _template:t="game_rendinst_decor+still_obstacle"
+  transform:m=[[0.58, -0.0540731, 0.81282] [0.030231, 0.998536, 0.0448561] [-0.814055, -0.00144414, 0.580785] [-1436.78, 0.694328, -1065.69]]
+  ri_extra__name:t="russia_trench_segment_b_base"
+}
+
+entity{
+  _template:t="terraforming"
+
+  "elevs:array"{
+    elevs:p4=-1435.45, -1049.22, 5, 1
+    elevs:p4=-1435.08, -1046.46, 5, 1
+    elevs:p4=-1433.73, -1044.81, 5, 1
+  }
+
+  "egras:array"{}
+}
+
+entity{
+  _template:t="ussr_kv_1_L_11_common"
+  transform:m=[[0.764162, -0.024939, 0.644542] [-0.00884905, 0.998753, 0.0491357] [-0.644964, -0.0432512, 0.762988] [-1456.95, 1.25611, -964.06]]
+  team:i=2
+  turretAimPos:p3=-1285, -70, 17
+}
+
+entity{
+  _template:t="base_local_invis_item"
+}
+
+entity{
+  _template:t="explosion_pack"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1631.02, 0.747564, -939.607]]
+}
+
+entity{
+  _template:t="explosion_pack"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1630.98, 2.35959, -940.088]]
+}
+
+entity{
+  _template:t="explosion_pack"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1630.57, 0.744268, -939.591]]
+}
+
+entity{
+  _template:t="explosion_pack"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1630.5, 0.747199, -940.178]]
+}
+
+entity{
+  _template:t="explosion_pack"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1630.71, 0.74536, -940.002]]
+}
+
+entity{
+  _template:t="explosion_pack"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1630.8, 0.744271, -939.677]]
+}
+
+entity{
+  _template:t="explosion_pack_phys"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1628.05, 0.742844, -941.217]]
+}
+
+entity{
+  _template:t="explosion_pack_phys"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1628.26, 0.7228, -941.521]]
+}
+
+entity{
+  _template:t="explosion_pack_phys"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1628.59, 0.730593, -941.196]]
+}
+
+entity{
+  _template:t="explosion_pack_phys"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1627.55, 0.735658, -941.725]]
+}
+
+entity{
+  _template:t="8cm_wgr_39_shell"
+}
+
+entity{
+  _template:t="24kw_flak_generator"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1617.86, 1.05684, -941.314]]
+}
+
+entity{
+  _template:t="88mm_flak_36_canon_b"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1611.45, 0.999334, -943.329]]
+}
+
+entity{
+  _template:t="base_flak_36_sdkfz_6_2+requires_trans_render"
+  transform:m=[[0.999994, -0.00357882, 0.000737175] [0.0035968, 0.999655, -0.026027] [-0.000643774, 0.0260295, 0.999661] [-1625.1, 1.19891, -953.03]]
+}
+
+entity{
+  _template:t="flak_36_sdkfz_6_2_ammo_cluster"
+}
+
+entity{
+  _template:t="flak_36_sdkfz_6_2_ammo_cluster"
+}
+
+entity{
+  _template:t="150cm_flak_sw_37"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1618.31, 0.839555, -947.619]]
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, 0, 0] [-0, 0.0906838, 0.99588] [0, -0.99588, 0.0906838] [-1633.79, 0.629057, -946.523]]
+  ri_extra__name:t="safe_target_a"
+}
+
+entity{
+  _template:t="bomb_site_safe_animchar"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1625.58, 0.81706, -941.432]]
+}
+
+entity{
+  _template:t="ammunition_box_base"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1551.34, 0.0448914, -907.989]]
+}
+
+entity{
+  _template:t="ammunition_box_base"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1622.61, 0.948256, -941.79]]
+}
+
+entity{
+  _template:t="ammunition_box_base"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1530.02, 0.908768, -1031.19]]
+}
+
+entity{
+  _template:t="ammunition_box_base"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1070.95, 8.63953, -658.788]]
+}
+
+entity{
+  _template:t="usa_building_tool_award_gun"
+}
+
+entity{
+  _template:t="usa_building_tool_award_gun"
+}
+
+entity{
+  _template:t="usa_building_tool_award_gun"
+}
+
+entity{
+  _template:t="usa_building_tool_award_gun"
+}
+
+entity{
+  _template:t="usa_building_tool_award_gun"
+}
+
+entity{
+  _template:t="base_dig_tool"
+}
+
+entity{
+  _template:t="game_rendinst+still_obstacle"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1635.89, 0.629065, -940.803]]
+  ri_extra__name:t="sandbags_wall_medium_rounded_a"
+}
+
+entity{
+  _template:t="bomb_site_safe_animchar"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1273.28, 2.58083, -1163.3]]
+}
+
+entity{
+  _template:t="bomb_site_zone_chained_sphere"
+  transform:m=[[0.604236, -4.13987e-05, -0.000883171] [0, 0.603573, -0.0282924] [0.00088414, 0.0282924, 0.603573] [-1615.81, 1.19339, -940.137]]
+  ui_order:i=7
+  capzone__narrator_zoneCapturedEnable:b=no
+  "capzone__bombSiteEid:eid":i=0
+  capzone__alwaysShow:b=yes
+  groupName:t="sector_1"
+  capzone__onlyTeamCanCapture:i=2
+  capzone__plantingTeam:i=2
+  capzone__timeToPlant:r=20
+  capzone__timeToExplosion:r=10
+  capzone__timeToDefuse:r=10
+  capzone__timeToResetPlant:r=10
+  capzone__owningTeam:i=1
+  capzone__mustBeCapturedByTeam:i=2
+  capzone__capTeam:i=2
+  capzone__bombTransformLocalPos:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [0, -0.00721788, 0]]
+  capzone__bombTemplate:t="bomb_site+bomb_site_safe_animchar"
+  active:b=yes
+  capzone__activateAfterCap:t="sector_2"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__alwaysHide:b=no
+  capzone__icon:t="ui/skin#gaijin_logo.png"
+  capzone__capReward:r=0
+}
+
+entity{
+  _template:t="spawn_on_friends"
+}
+
+entity{
+  _template:t="spawnMode_unlimitedSpawns"
+}
+
+entity{
+  _template:t="resupply_for_ground_vehicle_zone"
+  transform:m=[[2.91958, 0, 0] [0, 2.91958, 0] [0, 0, 2.91958] [-1571.11, 0.71979, -952.1]]
+  resupply_zone__team:i=2
+  resupply_zone__resupplyFuel:b=yes
+  ui_order:i=0
+  sphere_zone__radius:r=30
+}
+
+entity{
+  _template:t="capzone_sphere+capzone_projdecal"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1503.19, 0.687241, -972.553]]
+  ui_order:i=9
+  capzone__icon:t="bunker"
+  capzone__capTeam:i=1
+  capzone__alwaysShow:b=no
+  capzone__owningTeam:i=1
+  capzone__progress:r=1
+  capzone__title:t="abaabaaba"
+  active:b=yes
+}
+
+entity{
+  _template:t="domination_sphere_capzone+capzone_projdecal"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1490.49, 0.870502, -990.749]]
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__progress:r=1
+  capzone__owningTeam:i=1
+  capzone__capTeam:i=1
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+}
+
+entity{
+  _template:t="allow_change_squad"
+}
