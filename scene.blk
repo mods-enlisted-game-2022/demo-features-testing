@@ -1177,8 +1177,11 @@ entity{
 }
 
 entity{
-  _template:t="opel_olympia"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1632.66, 0.833636, -924.163]]
+  _template:t="opel_olympia+still_obstacle+respawnChooser+buildedRespawnBase"
+  transform:m=[[0.999996, 0.00284699, 2.92109e-05] [-0.00284699, 0.999785, 0.0205183] [2.92109e-05, -0.0205183, 0.999789] [-1625.12, 0.744412, -875.129]]
+  team:i=2
+  respawnBaseGroup:i=99
+  active:b=yes
 }
 
 entity{
@@ -1450,4 +1453,11 @@ entity{
 
 entity{
   _template:t="allow_change_squad"
+}
+
+entity{
+  _template:t="respawnChooser+buildedRespawnBase+still_obstacle+opel_olympia"
+  transform:m=[[0.689209, 0.00968193, -0.724497] [0.0158664, 0.999469, 0.0284502] [0.724388, -0.0311033, 0.68869] [-1655.55, 0.290459, -856.944]]
+  team:i=2
+  active:b=yes
 }
