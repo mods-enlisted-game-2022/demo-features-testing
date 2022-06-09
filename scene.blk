@@ -1182,6 +1182,7 @@ entity{
   team:i=2
   respawnBaseGroup:i=99
   active:b=yes
+  vehicle_seats__restrictToTeam:i=2
 }
 
 entity{
@@ -1460,4 +1461,6 @@ entity{
   transform:m=[[0.689209, 0.00968193, -0.724497] [0.0158664, 0.999469, 0.0284502] [0.724388, -0.0311033, 0.68869] [-1655.55, 0.290459, -856.944]]
   team:i=2
   active:b=yes
+  vehicle_seats__restrictToTeam:i=2
+  vehicle_seats__autoDetectRestrictToTeam:b=no
 }
