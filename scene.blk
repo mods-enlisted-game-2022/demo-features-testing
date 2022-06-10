@@ -1,5 +1,15 @@
+import:t="%ugm0/templates/bomb_site_200kg.blk"
+
 import{
   scene:t="content/enlisted/gamedata/scenes/_volokolamsk_sounds.blk"
+}
+
+import{
+  scene:t="%ugm0/templates/bomb_site_200kg.blk"
+}
+
+import{
+  entitiesPath:t="%ugm0/templates/bomb_site_200kg.blk"
 }
 
 entity{
@@ -196,6 +206,18 @@ entity{
   battle_area__team:i=2
   groupName:t="ax2xx"
   active:b=no
+}
+
+entity{
+  _template:t="dynamic_environment"
+  dynamic_environment__weather_datablock:t="content/common/gamedata/weather/weather_light_clouds.blk"
+  dynamic_environment__time:r=18.5
+  dynamic_environment__skies_seed:i=1
+}
+
+entity{
+  _template:t="game_mode_loaded"
+  game_mode_loader__dasScript:t="%ugm0/es/test_map_init.das"
 }
 
 entity{
@@ -1078,7 +1100,7 @@ entity{
 
 entity{
   _template:t="bomb_site_zone_chained_sphere"
-  transform:m=[[0.419945, -0.0131233, 0] [0.0131233, 0.419945, 0] [0, 0, 0.42015] [-1593.26, 0.993065, -931.179]]
+  transform:m=[[0.419945, -0.0131233, 0] [0.0131233, 0.419945, 0] [0, 0, 0.42015] [-1593.26, 2.17097, -931.179]]
   ui_order:i=7
   capzone__narrator_zoneCapturedEnable:b=no
   "capzone__bombSiteEid:eid":i=0
@@ -1386,7 +1408,7 @@ entity{
 
 entity{
   _template:t="bomb_site_zone_chained_sphere"
-  transform:m=[[0.604236, -4.13987e-05, -0.000883171] [0, 0.603573, -0.0282924] [0.00088414, 0.0282924, 0.603573] [-1615.81, 1.19339, -940.137]]
+  transform:m=[[0.604236, -4.13987e-05, -0.000883171] [0, 0.603573, -0.0282924] [0.00088414, 0.0282924, 0.603573] [-1615.81, 2.13197, -940.137]]
   ui_order:i=7
   capzone__narrator_zoneCapturedEnable:b=no
   "capzone__bombSiteEid:eid":i=0

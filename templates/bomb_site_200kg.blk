@@ -1,0 +1,27 @@
+bomb_site_200kg_shell_activator{
+  on_create__spawnActivatedShellBlk:t="2022060302/effects/bomb_site_200kg_charge.blk"
+  transform:m=[[1.0, 0.0, 0.0] [0.0, 1.0, 0.0] [0.0, 0.0, 1.0] [0.0, 0.0, 0.0]]
+}
+
+bomb_site_200kg_charge{
+  _extends:t="projectile_with_shell"
+  animchar__res:t="tnt_explosive_char"
+  shell__expl_node:t="weaponRoot"
+  item__name:t="items/bomb_site_charge"
+
+  "animchar_no_update:tag"{
+  }
+}
+
+bomb_site_200kg{
+  _extends:t="bomb_site_base"
+  _extends:t="bomb_site_tick_sound"
+  _extends:t="bomb_site_sound_effect"
+  active:b=yes
+  _replicated:t="active"
+  _tracked:t="active"
+  bomb_site__shellActivatorTemplate:t="bomb_site_200kg_shell_activator"
+
+  "bomb_site__capzoneEid:eid"{
+  }
+}
