@@ -1,15 +1,9 @@
-import:t="%ugm0/templates/bomb_site_200kg.blk"
-
 import{
   scene:t="content/enlisted/gamedata/scenes/_volokolamsk_sounds.blk"
 }
 
 import{
   scene:t="%ugm0/templates/bomb_site_200kg.blk"
-}
-
-import{
-  entitiesPath:t="%ugm0/templates/bomb_site_200kg.blk"
 }
 
 entity{
@@ -289,7 +283,7 @@ entity{
 
 entity{
   _template:t="level"
-  level__blk:t="content/enlisted/levels/battle_of_moscow_volokolamsk_countryside_winter.blk"
+  level__blk:t="%ugm0/levels/battle_of_moscow_volokolamsk_countryside_winter.blk"
   level__timeRange:p2=5, 19.2
 
   "level__weatherChoice:object"{
@@ -1472,6 +1466,7 @@ entity{
   capzone__capTeam:i=1
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
+  ui_order:i=9
 }
 
 entity{
@@ -1485,4 +1480,9 @@ entity{
   active:b=yes
   vehicle_seats__restrictToTeam:i=2
   vehicle_seats__autoDetectRestrictToTeam:b=no
+}
+
+entity{
+  _template:t="gaz_m1+requires_trans_render"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1293.39, 0.778444, -876.534]]
 }
