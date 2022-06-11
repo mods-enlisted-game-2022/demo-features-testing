@@ -104,7 +104,7 @@ entity{
 
 entity{
   _template:t="battle_area_polygon_point"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1272.45, 0.677795, -906.42]]
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-851.959, 0.677917, -771.132]]
   battle_area_polygon_point__forBattleAreaId:t="ac1"
   battle_area_polygon_point__id:t="ac1p1"
   battle_area_polygon_point__nextId:t="ac1p2"
@@ -128,7 +128,7 @@ entity{
 
 entity{
   _template:t="battle_area_polygon_point"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1416.8, 1.19294, -1107.51]]
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1261.68, 1.19294, -1343.54]]
   battle_area_polygon_point__forBattleAreaId:t="ac1"
   battle_area_polygon_point__id:t="ac1p4"
   battle_area_polygon_point__nextId:t="ac1p1"
@@ -1242,13 +1242,6 @@ entity{
 }
 
 entity{
-  _template:t="ussr_kv_1_L_11_common"
-  transform:m=[[0.764162, -0.024939, 0.644542] [-0.00884905, 0.998753, 0.0491357] [-0.644964, -0.0432512, 0.762988] [-1456.95, 1.25611, -964.06]]
-  team:i=2
-  turretAimPos:p3=-1285, -70, 17
-}
-
-entity{
   _template:t="base_local_invis_item"
 }
 
@@ -1483,6 +1476,41 @@ entity{
 }
 
 entity{
-  _template:t="gaz_m1+requires_trans_render"
+  _template:t="gaz_m1+requires_trans_render+still_obstacle+respawnChooser+player_respawn_base"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1293.39, 0.778444, -876.534]]
+  active:b=yes
+  team:i=1
+  vehicle_seats__restrictToTeam:i=1
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  respbase__team_spawn:b=yes
+  isEnemyAtRespawn:b=no
+}
+
+entity{
+  _template:t="item_spawner"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1303.62, 0.223209, -897.615]]
+  team:i=1
+
+  "spawnItemList:array"{
+    "spawnItemList:object"{
+      templ:t="ussr_t_70_common"
+      count:i=1
+    }
+  }
+}
+
+entity{
+  _template:t="base_fortification_build"
+}
+
+entity{
+  _template:t="base_fortification_build"
+}
+
+entity{
+  _template:t="base_fortification_build"
+}
+
+entity{
+  _template:t="base_fortification_build"
 }
