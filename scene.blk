@@ -1117,6 +1117,7 @@ entity{
   capzone__alwaysHide:b=no
   capzone__icon:t="ui/skin#gaijin_logo.png"
   capzone__capReward:r=0
+  capzone__deactivateAfterCap:b=yes
 }
 
 entity{
@@ -1395,7 +1396,7 @@ entity{
 
 entity{
   _template:t="bomb_site_zone_chained_sphere"
-  transform:m=[[0.604236, -4.13987e-05, -0.000883171] [0, 0.603573, -0.0282924] [0.00088414, 0.0282924, 0.603573] [-1615.81, 2.13197, -940.137]]
+  transform:m=[[0.604236, -4.13987e-05, -0.000883171] [0, 0.603573, -0.0282924] [0.00088414, 0.0282924, 0.603573] [-1616.28, 1.28639, -937.88]]
   ui_order:i=7
   capzone__narrator_zoneCapturedEnable:b=no
   "capzone__bombSiteEid:eid":i=0
@@ -1418,6 +1419,7 @@ entity{
   capzone__alwaysHide:b=no
   capzone__icon:t="ui/skin#gaijin_logo.png"
   capzone__capReward:r=0
+  capzone__deactivateAfterCap:b=no
 }
 
 entity{
@@ -1476,7 +1478,7 @@ entity{
 }
 
 entity{
-  _template:t="gaz_m1+requires_trans_render+still_obstacle+respawnChooser+player_respawn_base"
+  _template:t="gaz_m1+requires_trans_render+still_obstacle+respawnChooser+buildedRespawnBase"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1293.39, 0.778444, -876.534]]
   active:b=yes
   team:i=1
