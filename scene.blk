@@ -1191,6 +1191,7 @@ entity{
 entity{
   _template:t="t17e2"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1638.97, 0.772516, -920.755]]
+  team:i=2
 }
 
 entity{
@@ -1313,6 +1314,9 @@ entity{
 entity{
   _template:t="base_flak_36_sdkfz_6_2+requires_trans_render"
   transform:m=[[0.999994, -0.00357882, 0.000737175] [0.0035968, 0.999655, -0.026027] [-0.000643774, 0.0260295, 0.999661] [-1625.1, 1.19891, -953.03]]
+  vehicle_seats__autoDetectRestrictToTeam:b=yes
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
 }
 
 entity{
@@ -1417,7 +1421,7 @@ entity{
   capzone__activateAfterCap:t="sector_2"
   capzone__checkAllZonesInGroup:b=yes
   capzone__alwaysHide:b=no
-  capzone__icon:t="ui/skin#gaijin_logo.png"
+  capzone__icon:t="%ugm0/icons/keofox.png"
   capzone__capReward:r=0
   capzone__deactivateAfterCap:b=no
 }
@@ -1515,4 +1519,56 @@ entity{
 
 entity{
   _template:t="base_fortification_build"
+}
+
+entity{
+  _template:t="germ_flak_36_sdkfz_6_2+requires_trans_render"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1627.68, 0.677098, -946.701]]
+}
+
+entity{
+  _template:t="bomb_site_zone_chained_sphere"
+  transform:m=[[0.604236, -4.13987e-05, -0.000883171] [0, 0.603573, -0.0282924] [0.00088414, 0.0282924, 0.603573] [-1621.78, 1.28639, -938.169]]
+  ui_order:i=7
+  capzone__narrator_zoneCapturedEnable:b=no
+  "capzone__bombSiteEid:eid":i=0
+  capzone__alwaysShow:b=yes
+  groupName:t="sector_1"
+  capzone__onlyTeamCanCapture:i=2
+  capzone__plantingTeam:i=2
+  capzone__timeToPlant:r=20
+  capzone__timeToExplosion:r=10
+  capzone__timeToDefuse:r=10
+  capzone__timeToResetPlant:r=10
+  capzone__owningTeam:i=1
+  capzone__mustBeCapturedByTeam:i=2
+  capzone__capTeam:i=2
+  capzone__bombTransformLocalPos:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [0, -0.00721788, 0]]
+  capzone__bombTemplate:t="bomb_site+bomb_site_safe_animchar"
+  active:b=yes
+  capzone__activateAfterCap:t="sector_2"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__alwaysHide:b=no
+  capzone__icon:t="ui/skin#building_ammo_box.svg"
+  capzone__capReward:r=0
+  capzone__deactivateAfterCap:b=no
+}
+
+entity{
+  _template:t="boxed_ammo"
+}
+
+entity{
+  _template:t="ammunition_box_base"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1490.54, 0.694607, -962.861]]
+}
+
+entity{
+  _template:t="ammunition_box_base"
+  transform:m=[[0.972281, 0, -0.233814] [0, 1, 0] [0.233814, -0, 0.972281] [-1263.34, 0.138997, -924.078]]
+}
+
+entity{
+  _template:t="ammunition_box_base"
+  transform:m=[[0.928665, 0, -0.37092] [0, 1, 0] [0.37092, 0, 0.928665] [-1283.57, 0.705128, -842.631]]
 }
