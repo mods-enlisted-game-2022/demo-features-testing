@@ -1523,7 +1523,7 @@ entity{
 
 entity{
   _template:t="bomb_site_zone_chained_sphere"
-  transform:m=[[0.604236, -4.13987e-05, -0.000883171] [0, 0.603573, -0.0282924] [0.00088414, 0.0282924, 0.603573] [-1621.78, 1.28639, -938.169]]
+  transform:m=[[0.604236, -4.13987e-05, -0.000883171] [0, 0.603573, -0.0282924] [0.00088414, 0.0282924, 0.603573] [-1621.78, 2.25853, -938.169]]
   ui_order:i=7
   capzone__narrator_zoneCapturedEnable:b=no
   "capzone__bombSiteEid:eid":i=0
@@ -1538,7 +1538,7 @@ entity{
   capzone__owningTeam:i=1
   capzone__mustBeCapturedByTeam:i=2
   capzone__capTeam:i=2
-  capzone__bombTransformLocalPos:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [0, -0.00721788, 0]]
+  capzone__bombTransformLocalPos:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [0.00109863, -1.36967, 0]]
   capzone__bombTemplate:t="bomb_site+bomb_site_safe_animchar"
   active:b=yes
   capzone__activateAfterCap:t="sector_2"
@@ -1561,11 +1561,6 @@ entity{
 entity{
   _template:t="ammunition_box_base"
   transform:m=[[0.972281, 0, -0.233814] [0, 1, 0] [0.233814, -0, 0.972281] [-1263.34, 0.138997, -924.078]]
-}
-
-entity{
-  _template:t="ammunition_box_base"
-  transform:m=[[0.928665, 0, -0.37092] [0, 1, 0] [0.37092, 0, 0.928665] [-1283.57, 0.705128, -842.631]]
 }
 
 entity{
@@ -1597,6 +1592,9 @@ entity{
 entity{
   _template:t="ussr_bm_8_24_common"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1330.68, 0.731485, -849.08]]
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  team:i=1
+  vehicle_seats__restrictToTeam:i=-1
 
   "ui_turrets_state__ammo:object"{
     "213990569:object"{
@@ -1658,4 +1656,19 @@ entity{
   _template:t="ammunition_box_a"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1310.49, 0.472839, -899.599]]
   team:i=1
+}
+
+entity{
+  _template:t="ussr_bm_8_24_moscow_premium"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1331.16, 0.915419, -839.327]]
+}
+
+entity{
+  _template:t="uk_sherman_ic_firefly_common"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1331.08, 0.674318, -854.889]]
+}
+
+entity{
+  _template:t="ussr_t_26_1940"
+  transform:m=[[0.999984, 0.00536736, 0.0020231] [-0.00532986, 0.999822, -0.0181041] [-0.00211991, 0.018093, 0.999834] [-1320.98, 0.540663, -859.15]]
 }
