@@ -1637,28 +1637,6 @@ entity{
 }
 
 entity{
-  _template:t="ammunition_box_a"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1311.45, 0.373295, -902.244]]
-  team:i=1
-  useful_box__successUse:b=yes
-  minimap__visibleForAll:b=yes
-  useful_box__maxUseCount:i=9999
-  useful_box__useCount:i=9999
-}
-
-entity{
-  _template:t="ammunition_box_a"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1305.77, 0.269543, -903.304]]
-  team:i=1
-}
-
-entity{
-  _template:t="ammunition_box_a"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1310.49, 0.472839, -899.599]]
-  team:i=1
-}
-
-entity{
   _template:t="ussr_bm_8_24_moscow_premium"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1331.16, 0.915419, -839.327]]
 }
@@ -1671,4 +1649,73 @@ entity{
 entity{
   _template:t="ussr_t_26_1940"
   transform:m=[[0.999984, 0.00536736, 0.0020231] [-0.00532986, 0.999822, -0.0181041] [-0.00211991, 0.018093, 0.999834] [-1320.98, 0.540663, -859.15]]
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[-0.965926, 0, -0.258819] [0, 1, 0] [0.258819, 0, -0.965926] [-1520.16, 1.0349, -1081.36]]
+  ri_extra__name:t="normandy_bunker_667_l_walls"
+}
+
+entity{
+  _template:t="stationary_maxim_no_shield"
+  transform:m=[[-0.215667, 0, 0.976467] [0, 1, 0] [-0.976466, 0, -0.215667] [-1517.68, 2.2349, -1080.3]]
+  team:i=2
+  mounted_gun__active:b=yes
+  auto_gun_controller__targetTeam:i=1
+  auto_gun_controller__targetDist:r=300
+  auto_gun_controller__nextTraceTime:r=0
+  auto_gun_controller__traceTime:r=5
+  auto_gun_controller__nextChangeTargetTime:r=0
+  auto_gun_controller__changeTargetTime:r=1
+  auto_gun_controller__enabled:b=yes
+  auto_gun_controller__targetOffset:p3=0, 1, 0
+  auto_gun_controller__lastTargetPos:p3=0, 0, 0
+  "auto_gun_controller__selectedTarget:eid":i=0
+}
+
+entity{
+  _template:t="stationary_mg42"
+  transform:m=[[-0.368241, 0, 0.92973] [0, 1, 0] [-0.92973, 0, -0.368241] [-1518.25, 2.2349, -1079.01]]
+  team:i=2
+  mounted_gun__active:b=yes
+  auto_gun_controller__targetTeam:i=1
+  auto_gun_controller__targetDist:r=300
+  auto_gun_controller__nextTraceTime:r=0
+  auto_gun_controller__traceTime:r=5
+  auto_gun_controller__nextChangeTargetTime:r=0
+  auto_gun_controller__changeTargetTime:r=1
+  auto_gun_controller__enabled:b=yes
+  auto_gun_controller__targetOffset:p3=0, 1, 0
+  auto_gun_controller__lastTargetPos:p3=0, 0, 0
+  "auto_gun_controller__selectedTarget:eid":i=0
+}
+
+entity{
+  _template:t="auto_mg42"
+  transform:m=[[-0.122021, -0.0275771, 0.992144] [0.188417, 0.980793, 0.0504344] [-0.974479, 0.193091, -0.114481] [-1519.14, 6.01752, -1079.41]]
+  auto_gun_controller__targetDist:r=300
+  auto_gun_controller__enabled:b=no
+}
+
+entity{
+  _template:t="auto_mg42"
+  transform:m=[[-0.122067, 1.76125e-07, 0.992521] [1.98921e-06, 1, 6.71952e-08] [-0.992521, 1.98254e-06, -0.122067] [-1518.64, 6.0349, -1080.52]]
+  auto_gun_controller__targetDist:r=300
+  item__name:t="items/maxim"
+  item__proto:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
+  animchar__res:t="maxim_gun_without_shield_char"
+  collres__res:t="maxim_gun_without_shield_collision"
+  gun__blk:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
+  gun_shell_ejection__templateName:t="ptrd_41_ejected_shell"
+  hitpoints__shellDmgMult:r=1
+  gun__overheatPerShot:r=0.001
+  gun__overheatReduce:r=0.09
+  gun__overheatReduceOnOverheat:r=0.1
+  auto_gun_controller__traceTime:r=1.0
+  auto_gun_controller__changeTargetTime:r=0.8
+
+  "gun__shells:array"{
+    gun__shells:t="content/enlisted/gamedata/weapons_enlisted/bullets/14.5x114_bs41.blk"
+  }
 }
