@@ -1,5 +1,4 @@
 levelBin:t="content/base/levels/battle_of_moscow_volokolamsk_countryside_winter.bin"
-entitiesPath:t="%ugm0/templates/bomb_site_200kg.blk"
 
 clipmap{
   texelSize:r=0.0078
