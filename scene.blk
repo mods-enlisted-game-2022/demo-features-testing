@@ -3010,3 +3010,8 @@ entity{
   vehicle_seats__restrictToTeam:i=2
   startRelativeSpeed:r=0.9
 }
+
+entity{
+  _template:t="builded_cannon_germ_20mm_flak38_flakvierling_green+requires_trans_render+ai_aircraft_crew_sov"
+  transform:m=[[-0.860278, -0.0293475, 0.508979] [-0.0156155, 0.99939, 0.0312309] [-0.509585, 0.0189194, -0.860212] [-1469.37, 1.07438, -1072.11]]
+}
