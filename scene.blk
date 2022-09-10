@@ -3,6 +3,10 @@ import{
 }
 
 import{
+  scene:t="%ugm/scene_ju88.blk"
+}
+
+import{
   scene:t="%ugm/templates/bomb_site_200kg.blk"
 }
 
@@ -80,7 +84,7 @@ entity{
 
 entity{
   _template:t="battle_area_polygon_point"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1461.73, 1.00902, -976.257]]
+  transform:m=[[0.999512, 0.0312348, 0] [-0.0312348, 0.999512, 0] [0, -0, 1] [-1461.73, 1.009, -976.257]]
   battle_area_polygon_point__forBattleAreaId:t="as3"
   battle_area_polygon_point__id:t="as3p3"
   battle_area_polygon_point__nextId:t="as3p4"
@@ -1123,7 +1127,7 @@ entity{
   capzone__activateAfterCap:t="sector_2"
   capzone__checkAllZonesInGroup:b=yes
   capzone__alwaysHide:b=no
-  capzone__icon:t="ui/skin#gaijin_logo.png"
+  capzone__icon:t="!%ugm/icons/duckboy_png24.png"
   capzone__capReward:r=0
   capzone__deactivateAfterCap:b=yes
 }

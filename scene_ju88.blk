@@ -1,0 +1,270 @@
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.914665, -0.0503788, -0.401062] [0.0841582, 0.994194, 0.0670476] [0.395356, -0.0950788, 0.913594] [-6660.93, 857.328, 1828.07]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.915639, -0.0505768, -0.398808] [0.083962, 0.994235, 0.0666828] [0.393137, -0.0945421, 0.914607] [-6704.04, 861.301, 1820.88]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.913254, -0.0505895, -0.404236] [0.0846407, 0.99417, 0.0668022] [0.3985, -0.0952223, 0.912212] [-6684.09, 861.343, 1873.57]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.914294, -0.0504186, -0.401902] [0.0840425, 0.994243, 0.0664619] [0.396238, -0.0945425, 0.913267] [-6732.27, 861.811, 1867.65]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.916704, -0.0503366, -0.396384] [0.0831853, 0.994339, 0.0661091] [0.390812, -0.0935758, 0.915702] [-6763.33, 861.642, 1819.8]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.911385, -0.0504066, -0.408457] [0.0849249, 0.994145, 0.066807] [0.402698, -0.095575, 0.910329] [-6701.52, 861.708, 1926.91]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.90327, -0.0522248, -0.425882] [0.0885129, 0.993896, 0.0658516] [0.419844, -0.0971778, 0.902379] [-6800.65, 887.884, 2169.76]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.904369, -0.0519233, -0.423581] [0.0878612, 0.993961, 0.0657473] [0.417609, -0.0966761, 0.903469] [-6844.96, 886.841, 2163.91]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.901848, -0.0519005, -0.428925] [0.0884705, 0.993906, 0.065752] [0.422899, -0.0972455, 0.900944] [-6825.81, 886.77, 2217.53]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.902925, -0.0517704, -0.426668] [0.0881572, 0.99392, 0.0659615] [0.420659, -0.0971722, 0.902] [-6872.83, 887.428, 2211.08]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.905559, -0.0517092, -0.421058] [0.0870164, 0.99408, 0.0650631] [0.415201, -0.0955574, 0.904697] [-6904, 887.502, 2161.56]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.899968, -0.0517243, -0.432877] [0.0887472, 0.993882, 0.0657503] [0.426828, -0.0975897, 0.899052] [-6844.52, 886.9, 2273.24]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.920477, -0.0499575, -0.387591] [0.0807969, 0.994695, 0.0636733] [0.382354, -0.089926, 0.91963] [-7040.28, 870.981, 1838.62]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.921295, -0.0502579, -0.385604] [0.0809035, 0.994687, 0.0636535] [0.380356, -0.0898403, 0.920466] [-7084.44, 875.805, 1833.14]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.918838, -0.0502905, -0.391417] [0.0818356, 0.994568, 0.0643211] [0.386056, -0.0911325, 0.917963] [-7062.69, 875.892, 1888.48]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.920028, -0.050109, -0.388636] [0.0810091, 0.994687, 0.0635246] [0.383388, -0.0899274, 0.919199] [-7111.29, 876.494, 1879.28]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.922254, -0.0500834, -0.383326] [0.0804123, 0.994737, 0.0634989] [0.378128, -0.0893862, 0.921428] [-7143.22, 876.58, 1831.1]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.917269, -0.0501625, -0.395097] [0.0820543, 0.994556, 0.0642286] [0.389724, -0.0913343, 0.916391] [-7080.28, 876.3, 1939.32]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.898071, -0.0513221, -0.436847] [0.0883783, 0.99397, 0.0649137] [0.430881, -0.0969049, 0.897191] [-6971.76, 890.858, 2381.18]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.899072, -0.0510729, -0.43481] [0.0878702, 0.994013, 0.0649353] [0.428891, -0.0965884, 0.898178] [-7013.11, 890.107, 2374.35]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.89654, -0.0510233, -0.440014] [0.0884278, 0.993965, 0.0649156] [0.434046, -0.0971089, 0.895642] [-6995.52, 889.819, 2429.54]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.897688, -0.0508818, -0.437684] [0.0881312, 0.993972, 0.0652052] [0.431728, -0.0971075, 0.896761] [-7042.52, 890.377, 2423.48]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.900404, -0.0508586, -0.432072] [0.0868948, 0.994156, 0.0640612] [0.426289, -0.0952258, 0.899561] [-7073.25, 890.575, 2371.66]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.894681, -0.05087, -0.443799] [0.0888053, 0.993919, 0.0651009] [0.437789, -0.0976563, 0.893759] [-7012.45, 890.202, 2484.07]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.921074, -0.0490438, -0.386287] [0.0795798, 0.994807, 0.0634495] [0.38117, -0.0891823, 0.920194] [-7295.81, 874.185, 1926.4]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.922023, -0.0492753, -0.383987] [0.0792687, 0.994881, 0.0626697] [0.378934, -0.0882211, 0.921209] [-7339.36, 878.788, 1918.8]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.919709, -0.0492174, -0.389504] [0.0800865, 0.994769, 0.0634044] [0.384346, -0.0895076, 0.91884] [-7320.51, 878.379, 1974.86]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.920837, -0.0490973, -0.386846] [0.0791268, 0.99493, 0.0620778] [0.381836, -0.0877734, 0.920053] [-7368.16, 879.064, 1965.94]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.923019, -0.0490694, -0.381613] [0.0785986, 0.994966, 0.0621718] [0.376641, -0.08738, 0.922229] [-7399.74, 879.319, 1916.36]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
+
+entity{
+  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
+  transform:m=[[0.91801, -0.0490856, -0.393508] [0.0802583, 0.994772, 0.0631473] [0.388351, -0.0895522, 0.91715] [-7337.76, 878.647, 2028.92]]
+  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
+  team:i=2
+  vehicle_seats__restrictToTeam:i=2
+  startRelativeSpeed:r=0.9
+}
