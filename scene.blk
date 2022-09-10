@@ -2733,6 +2733,117 @@ entity{
 entity{
   _template:t="moving_car_panzerjagerwagen_pzkpfw_IV_ausf_H_turret"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1480.24, 1.03931, -1074.22]]
+
+  "disableDMParts:list<t>"{
+    item:t="ex_decor_l_06"
+    item:t="ex_decor_l_05"
+    item:t="ex_decor_l_01"
+    item:t="ex_decor_l_07"
+    item:t="ex_decor_l_08"
+    item:t="ex_lantern_l_02"
+    item:t="ex_lantern_r_01"
+    item:t="ex_decor_l_04"
+    item:t="ex_decor_r_05"
+    item:t="track_l"
+    item:t="wheel_r_back"
+    item:t="ex_decor_l_02"
+    item:t="ex_armor_body_02"
+    item:t="ex_armor_body_01"
+    item:t="ex_armor_body_l_02"
+    item:t="ex_armor_body_l_01"
+    item:t="ex_decor_r_03"
+    item:t="ex_armor_body_r_01"
+    item:t="ex_decor_r_01"
+    item:t="ex_decor_r_02"
+    item:t="ex_decor_r_06"
+    item:t="wheel_r_top_04"
+    item:t="wheel_r_top_03"
+    item:t="wheel_r_top_02"
+    item:t="wheel_r_top_01"
+    item:t="wheel_l_top_04"
+    item:t="wheel_l_top_03"
+    item:t="wheel_l_top_02"
+    item:t="wheel_l_top_01"
+    item:t="ex_decor_l_03"
+    item:t="wheel_l_back"
+    item:t="ex_lantern_l_01"
+    item:t="ex_decor_r_04"
+    item:t="ex_armor_body_r_02"
+    item:t="ex_armor_body_05"
+    item:t="ex_armor_body_04"
+    item:t="ex_armor_body_03"
+    item:t="ex_armor_body_l_04"
+    item:t="ex_armor_body_l_05"
+    item:t="ex_armor_body_l_06"
+    item:t="ex_armor_body_l_07"
+    item:t="ex_armor_body_l_08"
+    item:t="ex_armor_body_r_04"
+    item:t="ex_armor_body_r_05"
+    item:t="ex_armor_body_r_06"
+    item:t="ex_armor_body_r_07"
+    item:t="ex_armor_body_r_08"
+    item:t="wheel_r_drive"
+    item:t="wheel_l_drive"
+    item:t="ex_decor_l_10"
+    item:t="ex_decor_r_07"
+    item:t="ex_decor_r_08"
+    item:t="ex_decor_l_09"
+    item:t="bone_mg_body"
+    item:t="wheel_r_05"
+    item:t="wheel_r_04"
+    item:t="wheel_r_03"
+    item:t="wheel_r_02"
+    item:t="wheel_r_01"
+    item:t="wheel_r_07"
+    item:t="wheel_r_08"
+    item:t="wheel_r_06"
+    item:t="wheel_l_04"
+    item:t="wheel_l_03"
+    item:t="wheel_l_02"
+    item:t="wheel_l_01"
+    item:t="wheel_l_07"
+    item:t="wheel_l_08"
+    item:t="wheel_l_06"
+    item:t="wheel_l_05"
+    item:t="suspension_r_05"
+    item:t="suspension_r_04"
+    item:t="suspension_r_03"
+    item:t="suspension_r_02"
+    item:t="suspension_r_01"
+    item:t="suspension_r_07"
+    item:t="suspension_r_08"
+    item:t="suspension_r_06"
+    item:t="suspension_l_04"
+    item:t="suspension_l_03"
+    item:t="suspension_l_02"
+    item:t="suspension_l_01"
+    item:t="suspension_l_07"
+    item:t="suspension_l_08"
+    item:t="suspension_l_06"
+    item:t="suspension_l_05"
+    item:t="ex_armor_01"
+    item:t="ex_armor_02"
+    item:t="ex_armor_03"
+    item:t="ex_armor_04"
+    item:t="ex_armor_05"
+    item:t="ex_armor_06"
+    item:t="ex_armor_07"
+    item:t="hatch_08"
+    item:t="hatch_06"
+    item:t="hatch_07"
+    item:t="hatch_09"
+    item:t="ex_armor_body_r_09"
+    item:t="ex_armor_body_l_09"
+    item:t="track_r"
+    item:t="antenna"
+    item:t="track_r_01"
+    item:t="track_l_01"
+    item:t="ammo"
+    item:t="mg_mount_h"
+    item:t="mg_mount_v"
+    item:t="bone_mg_aa_barrel"
+    item:t="bone_turret_01"
+  }
 }
 
 entity{
@@ -2743,168 +2854,6 @@ entity{
 entity{
   _template:t="resupply_in_air_zone"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [6800.36, 97.9135, -4332.01]]
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.914665, -0.0503788, -0.401062] [0.0841582, 0.994194, 0.0670476] [0.395356, -0.0950788, 0.913594] [-6660.93, 857.328, 1828.07]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.913254, -0.0505895, -0.404236] [0.0846407, 0.99417, 0.0668022] [0.3985, -0.0952223, 0.912212] [-6684.09, 861.343, 1873.57]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.916704, -0.0503366, -0.396384] [0.0831853, 0.994339, 0.0661091] [0.390812, -0.0935758, 0.915702] [-6763.33, 861.642, 1819.8]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.911385, -0.0504066, -0.408457] [0.0849249, 0.994145, 0.066807] [0.402698, -0.095575, 0.910329] [-6701.52, 861.708, 1926.91]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.90327, -0.0522248, -0.425882] [0.0885129, 0.993896, 0.0658516] [0.419844, -0.0971778, 0.902379] [-6800.65, 887.884, 2169.76]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.904369, -0.0519233, -0.423581] [0.0878612, 0.993961, 0.0657473] [0.417609, -0.0966761, 0.903469] [-6844.96, 886.841, 2163.91]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.901848, -0.0519005, -0.428925] [0.0884705, 0.993906, 0.065752] [0.422899, -0.0972455, 0.900944] [-6825.81, 886.77, 2217.53]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.920477, -0.0499575, -0.387591] [0.0807969, 0.994695, 0.0636733] [0.382354, -0.089926, 0.91963] [-7040.28, 870.981, 1838.62]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.921295, -0.0502579, -0.385604] [0.0809035, 0.994687, 0.0636535] [0.380356, -0.0898403, 0.920466] [-7084.44, 875.805, 1833.14]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.918838, -0.0502905, -0.391417] [0.0818356, 0.994568, 0.0643211] [0.386056, -0.0911325, 0.917963] [-7062.69, 875.892, 1888.48]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.898071, -0.0513221, -0.436847] [0.0883783, 0.99397, 0.0649137] [0.430881, -0.0969049, 0.897191] [-6971.76, 890.858, 2381.18]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.89654, -0.0510233, -0.440014] [0.0884278, 0.993965, 0.0649156] [0.434046, -0.0971089, 0.895642] [-6995.52, 889.819, 2429.54]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.897688, -0.0508818, -0.437684] [0.0881312, 0.993972, 0.0652052] [0.431728, -0.0971075, 0.896761] [-7042.52, 890.377, 2423.48]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.900404, -0.0508586, -0.432072] [0.0868948, 0.994156, 0.0640612] [0.426289, -0.0952258, 0.899561] [-7073.25, 890.575, 2371.66]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.894681, -0.05087, -0.443799] [0.0888053, 0.993919, 0.0651009] [0.437789, -0.0976563, 0.893759] [-7012.45, 890.202, 2484.07]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.921074, -0.0490438, -0.386287] [0.0795798, 0.994807, 0.0634495] [0.38117, -0.0891823, 0.920194] [-7295.81, 874.185, 1926.4]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.922023, -0.0492753, -0.383987] [0.0792687, 0.994881, 0.0626697] [0.378934, -0.0882211, 0.921209] [-7339.36, 878.788, 1918.8]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
-}
-
-entity{
-  _template:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect"
-  transform:m=[[0.919709, -0.0492174, -0.389504] [0.0800865, 0.994769, 0.0634044] [0.384346, -0.0895076, 0.91884] [-7320.51, 878.379, 1974.86]]
-  ai_aircraft__flyPos:p3=6800.36, 97.9135, -4332.01
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  startRelativeSpeed:r=0.9
 }
 
 entity{
@@ -4083,6 +4032,157 @@ entity{
   "car_painting__possibleColors:array"{
     "car_painting__possibleColors:object"{
       color:t="vehicle_color_military_green"
+    }
+  }
+}
+
+entity{
+  _template:t="builded_auto_turret"
+  transform:m=[[-0.485351, 0.0119347, 0.874238] [0.0526548, 0.998491, 0.0156014] [-0.872732, 0.053605, -0.485247] [-1463.04, 1.01701, -1015.93]]
+  team:i=1
+  hitpoints__hp:r=99990
+  hitpoints__maxHp:r=99990
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="flak_36_sdkfz_6_2_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  turret__teamLightTemplate:t=""
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=10
+      turret_ai__amplitude:p2=0.01, 0.03
+      turret__limit:p4=-180, 180, 23, 79
+      gun_spread__maxDeltaAngle:r=1.23
+      turret_ai__attackTimerr:r=0.1
+      turret_ai__maxWindow:p2=0, 0
+      turret_ai__sleepTimer:r=0.12
+      turret_ai__atackDist:r=1200
+      turret_ai__period:p2=0.02, 0.2
+      turret_ai__pauseTimer:r=1
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=9999999
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+flak_36_sdkfz_6_2_turret_01_37mm_flak36+turret_with_several_types_of_shells+main_turret"
+      turretName:t="turret_01"
+    }
+  }
+}
+
+entity{
+  _template:t="builded_auto_turret"
+  transform:m=[[-0.487346, -0.0413885, 0.872227] [0.0233883, 0.997899, 0.0604197] [-0.872896, 0.0498452, -0.485354] [-1472.23, 1.06379, -1025.44]]
+  team:i=1
+  hitpoints__hp:r=99990
+  hitpoints__maxHp:r=99990
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="tgdgb_m40_lv_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  phys__isAsleep:b=yes
+  turret__teamLightTemplate:t=""
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=10
+      turret_ai__amplitude:p2=0.01, 0.03
+      turret__limit:p4=-180, 180, 36, 79
+      gun_spread__maxDeltaAngle:r=0.66
+      turret_ai__attackTimerr:r=0.1
+      turret_ai__maxWindow:p2=0, 0
+      turret_ai__sleepTimer:r=2.3
+      turret_ai__atackDist:r=1200
+      turret_ai__period:p2=0.05, 0.12
+      turret_ai__pauseTimer:r=3
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=9999999
+      }
+    }
+  }
+
+  "animchar__objTexReplace:object"{
+    "se_camo_green*":t="ussr_camo_green*"
+  }
+
+  "gun__ammoSetsInfo:shared:array"{
+    "gun__ammoSetsInfo:array"{
+      "gun__ammoSetsInfo:object"{
+        blk:t="gamedata/gen/weapons/shells/85mm_zis_s_53_85mm_ussr_aphe.blk"
+        name:t="85mm_br_365a"
+        type:t="aphebc_tank"
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+tankgun_85mm_zis_s_53+turret_with_several_types_of_shells+main_turret"
+      turretName:t="turret_01"
+    }
+  }
+}
+
+entity{
+  _template:t="builded_auto_turret"
+  transform:m=[[-0.486153, -0.0687892, 0.871162] [-0.0311759, 0.997628, 0.0613775] [-0.873317, 0.00267966, -0.487145] [-1470.31, 1.17054, -1018.19]]
+  team:i=1
+  hitpoints__hp:r=99990
+  hitpoints__maxHp:r=99990
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="towed_at_2pdr_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  turret__teamLightTemplate:t=""
+
+  "animchar__objTexReplace:object"{
+    "uk_camo_very_dark_drab*":t="ussr_camo_green*"
+  }
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=10
+      turret_ai__amplitude:p2=0.01, 0.03
+      turret__limit:p4=-80, 80, 12, 66
+      gun_spread__maxDeltaAngle:r=0.2
+      turret_ai__attackTimerr:r=0.1
+      turret_ai__maxWindow:p2=0, 0
+      turret_ai__sleepTimer:r=0.16
+      turret_ai__atackDist:r=960
+      turret_ai__period:p2=0.06, 0.1
+      turret_ai__pauseTimer:r=1
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=9999999
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+tankgun_25mm_72k+turret_with_several_types_of_shells+main_turret"
+      turretName:t="turret_01"
     }
   }
 }
