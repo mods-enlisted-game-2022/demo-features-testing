@@ -116,15 +116,15 @@ entity{
 
 entity{
   _template:t="battle_area_polygon_point"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1666.7, 0.478851, -994.246]]
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1738.23, 0.478851, -1406.93]]
   battle_area_polygon_point__forBattleAreaId:t="ac1"
   battle_area_polygon_point__id:t="ac1p3"
-  battle_area_polygon_point__nextId:t="ac1p4"
+  battle_area_polygon_point__nextId:t="ac1p4    "
 }
 
 entity{
   _template:t="battle_area_polygon_point"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-975.8, 1.19294, -1765.3]]
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [380.458, 1.19288, -2163.94]]
   battle_area_polygon_point__forBattleAreaId:t="ac1"
   battle_area_polygon_point__id:t="ac1p4"
   battle_area_polygon_point__nextId:t="ac1p1"
@@ -968,6 +968,11 @@ entity{
       name:t="wood_debris_f"
       tm:m=[[0.499994, 0.00336069, 0.866022] [-0.00334251, 0.999993, -0.00195074] [-0.866022, -0.00191933, 0.500002] [-1685.72, 0.700539, -853.085]]
     }
+
+    "rirmv:object"{
+      name:t="ammunition_box_piles_d"
+      tm:m=[[0.606718, 0, 0.794918] [0, 1, 0] [-0.794918, 0, 0.606718] [-1359.76, 1.57351, -1243.47]]
+    }
   }
 
   "riunb:array"{}
@@ -1195,7 +1200,9 @@ entity{
     elevs:p4=-1433.73, -1044.81, 5, 1
   }
 
-  "egras:array"{}
+  "egras:array"{
+    egras:p3=-74.8707, -1002.59, 35
+  }
 }
 
 entity{
@@ -2057,17 +2064,6 @@ entity{
 }
 
 entity{
-  _template:t="ammunition_box_a+base_fortification_build"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1387.6, 1.31523, -1129.61]]
-  team:i=1
-  buildingRadius:r=2
-  useful_box__maxUseCount:i=99999
-  useful_box__useCount:i=99999
-  useful_box__hintFull:t="阿巴阿巴阿巴"
-  hud_icon__image:t="radio"
-}
-
-entity{
   _template:t="gaz_67"
   transform:m=[[0.99918, -0.0404247, -0.00221174] [0.0404846, 0.997389, 0.0598042] [-0.000211598, -0.0598447, 0.998208] [-1464.83, 3.69553, -1227.02]]
 }
@@ -2101,6 +2097,13 @@ entity{
     "car_painting__possibleColors:object"{
       color:t="vehicle_color_battleship_gray"
     }
+  }
+
+  "vehicle_seats_can_acquire_controls:list<i>"{
+    item:i=1
+    item:i=1
+    item:i=1
+    item:i=1
   }
 }
 
@@ -2227,6 +2230,12 @@ entity{
     item:i=1
     item:i=1
   }
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[-0.760931, 0, 0.648832] [0, 1, 0] [-0.648832, 0, -0.760931] [-47.029, 59.6757, -1030.27]]
+  respawnBaseGroup:i=12
 }
 
 entity{
@@ -2521,6 +2530,11 @@ entity{
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1411.34, 2.70742, -1185.19]]
   maxVehicleOnSpawn:i=2
   team:i=1
+
+  "respbase__addTemplatesOnSpawn:list<t>"{
+    item:t="vehicle_autodetect_team"
+    item:t="vehicle_spawn_validation"
+  }
 }
 
 entity{
@@ -3526,18 +3540,8 @@ entity{
 }
 
 entity{
-  _template:t="sw_tgdgb_m40_lv"
-  transform:m=[[0.999992, -0.00398012, -0.000115713] [0.00398012, 0.998303, 0.0580962] [-0.000115713, -0.0580962, 0.998311] [-1400.81, -0.258468, -1124.31]]
-  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
-
-  "disableDMParts:list<t>"{
-    item:t="@root"
-  }
-}
-
-entity{
   _template:t="base_tgdgb_m40_lv"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1404.57, 1.68215, -1129.13]]
+  transform:m=[[0.999923, 0.0124458, 0.000262662] [-0.0124458, 0.999032, 0.0421887] [0.000262662, -0.0421887, 0.99911] [-1416.63, 1.69402, -1131.62]]
 }
 
 entity{
@@ -3728,7 +3732,7 @@ entity{
 
 entity{
   _template:t="base_stuh_iii_ausf_g+vehicle_effects_tracked"
-  transform:m=[[-0.718219, -0.0163037, 0.695626] [0, 0.999725, 0.0234311] [-0.695817, 0.0168286, -0.718022] [-1401.88, 1.24736, -1119.11]]
+  transform:m=[[-0.718109, 0.00105941, 0.69593] [-0.0105414, 0.999868, -0.0123994] [-0.695851, -0.0162402, -0.718003] [-1408.32, 1.26221, -1115.43]]
   item__iconOffset:p2=0, 0.3
   gunnerFpsCamMaxAngle:p2=20, -10
 
@@ -4039,13 +4043,16 @@ entity{
 entity{
   _template:t="builded_auto_turret"
   transform:m=[[-0.485351, 0.0119347, 0.874238] [0.0526548, 0.998491, 0.0156014] [-0.872732, 0.053605, -0.485247] [-1463.04, 1.01701, -1015.93]]
-  team:i=1
+  team:i=2
   hitpoints__hp:r=99990
   hitpoints__maxHp:r=99990
   phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
   animchar__res:t="flak_36_sdkfz_6_2_char"
   collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
-  turret__teamLightTemplate:t=""
+  pair_collision__tag:t="collidableToVehicle"
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -4082,15 +4089,16 @@ entity{
 
 entity{
   _template:t="builded_auto_turret"
-  transform:m=[[-0.487346, -0.0413885, 0.872227] [0.0233883, 0.997899, 0.0604197] [-0.872896, 0.0498452, -0.485354] [-1472.23, 1.06379, -1025.44]]
+  transform:m=[[-0.487181, -0.0413979, 0.872319] [0.0233883, 0.997899, 0.0604197] [-0.872988, 0.0498373, -0.485189] [-1472.23, 1.06397, -1025.44]]
   team:i=1
   hitpoints__hp:r=99990
   hitpoints__maxHp:r=99990
   phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
   animchar__res:t="tgdgb_m40_lv_char"
   collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
-  phys__isAsleep:b=yes
-  turret__teamLightTemplate:t=""
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -4100,8 +4108,10 @@ entity{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=10
       turret_ai__amplitude:p2=0.01, 0.03
+      gun_deviation__maxDeviation:r=1.5
       turret__limit:p4=-180, 180, 36, 79
-      gun_spread__maxDeltaAngle:r=0.66
+      gun_spread__maxDeltaAngle:r=0.5
+      gun_deviation__onShotDeviationChange:r=0.05
       turret_ai__attackTimerr:r=0.1
       turret_ai__maxWindow:p2=0, 0
       turret_ai__sleepTimer:r=2.3
@@ -4117,16 +4127,6 @@ entity{
 
   "animchar__objTexReplace:object"{
     "se_camo_green*":t="ussr_camo_green*"
-  }
-
-  "gun__ammoSetsInfo:shared:array"{
-    "gun__ammoSetsInfo:array"{
-      "gun__ammoSetsInfo:object"{
-        blk:t="gamedata/gen/weapons/shells/85mm_zis_s_53_85mm_ussr_aphe.blk"
-        name:t="85mm_br_365a"
-        type:t="aphebc_tank"
-      }
-    }
   }
 
   "turret_control__turretInfo:shared:array"{
@@ -4148,7 +4148,9 @@ entity{
   phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
   animchar__res:t="towed_at_2pdr_char"
   collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
-  turret__teamLightTemplate:t=""
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
 
   "animchar__objTexReplace:object"{
     "uk_camo_very_dark_drab*":t="ussr_camo_green*"
@@ -4161,14 +4163,18 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=10
+      turret__yawSpeed:r=90
       turret_ai__amplitude:p2=0.01, 0.03
+      gun_deviation__maxDeviation:r=1.5
       turret__limit:p4=-80, 80, 12, 66
-      gun_spread__maxDeltaAngle:r=0.2
+      gun_spread__maxDeltaAngle:r=0.5
+      gun_deviation__onShotDeviationChange:r=0.05
       turret_ai__attackTimerr:r=0.1
       turret_ai__maxWindow:p2=0, 0
       turret_ai__sleepTimer:r=0.16
       turret_ai__atackDist:r=960
       turret_ai__period:p2=0.06, 0.1
+      turret__pitchSpeed:r=66
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
@@ -4185,4 +4191,957 @@ entity{
       turretName:t="turret_01"
     }
   }
+}
+
+entity{
+  _template:t="builded_auto_turret"
+  transform:m=[[-0.483983, 0.0651961, 0.872645] [0.0535798, 0.997558, -0.0448122] [-0.873435, 0.0250678, -0.486294] [-1459.82, 1.1907, -1009.64]]
+  team:i=1
+  hitpoints__hp:r=99990
+  hitpoints__maxHp:r=99990
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="t_60_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  pair_collision__tag:t="collidableToVehicle"
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
+  death_desc__victimTeam:i=2
+  death_desc__offenderTeam:i=1
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=10
+      turret__yawSpeed:r=66
+      turret_ai__amplitude:p2=0.01, 0.6
+      gun_deviation__maxDeviation:r=1.5
+      turret__limit:p4=-180, 180, 23, 79
+      gun_spread__maxDeltaAngle:r=0.5
+      gun_deviation__onShotDeviationChange:r=0.05
+      turret_ai__attackTimerr:r=0.1
+      turret_ai__maxWindow:p2=0, 0
+      turret_ai__sleepTimer:r=0.12
+      turret_ai__atackDist:r=1200
+      turret_ai__period:p2=0.02, 0.2
+      turret__pitchSpeed:r=66
+      turret_ai__pauseTimer:r=1
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=9999999
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+tankgun_25mm_72k+turret_with_several_types_of_shells+main_turret"
+      turretName:t="turret_01"
+    }
+  }
+}
+
+entity{
+  _template:t="builded_auto_turret"
+  transform:m=[[-0.483986, 0.0653428, 0.872633] [0.0534963, 0.997552, -0.0450263] [-0.873439, 0.0248905, -0.486297] [-1456.57, 1.1907, -1004.77]]
+  team:i=1
+  hitpoints__hp:r=99990
+  hitpoints__maxHp:r=99990
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="t_60_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  pair_collision__tag:t="collidableToVehicle"
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
+  death_desc__victimTeam:i=2
+  death_desc__offenderTeam:i=1
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=10
+      turret__yawSpeed:r=66
+      turret_ai__amplitude:p2=0.01, 0.6
+      gun_deviation__maxDeviation:r=1.5
+      turret__limit:p4=-180, 180, 23, 79
+      gun_spread__maxDeltaAngle:r=0.5
+      gun_deviation__onShotDeviationChange:r=0.05
+      turret_ai__attackTimerr:r=0.1
+      turret_ai__maxWindow:p2=0, 0
+      turret_ai__sleepTimer:r=0.12
+      turret_ai__atackDist:r=1200
+      turret_ai__period:p2=0.02, 0.2
+      turret__pitchSpeed:r=66
+      turret_ai__pauseTimer:r=1
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=9999999
+      }
+
+      "gun__ammoSetsInfo:shared:array"{
+        "gun__ammoSetsInfo:array"{
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/25mm_72k_defaultset_bullet_2.blk"
+            name:t="25mm_br_132"
+            type:t="ap_t"
+          }
+
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/85mm_d5s_85mm_ussr_hvap.blk"
+            name:t="85mm_br_367p"
+            type:t="apcr_tank"
+          }
+
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/57mm_zis2_57mm_ussr_apcbc.blk"
+            name:t="25mm_br_132"
+            type:t="ap_t"
+          }
+        }
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+tankgun_25mm_72k+turret_with_several_types_of_shells+main_turret"
+      turretName:t="turret_01"
+    }
+  }
+}
+
+entity{
+  _template:t="builded_auto_turret"
+  transform:m=[[-0.483986, 0.0653428, 0.872633] [0.0534963, 0.997552, -0.0450263] [-0.873439, 0.0248905, -0.486297] [-1463.41, 1.19071, -1003.62]]
+  team:i=1
+  hitpoints__hp:r=99990
+  hitpoints__maxHp:r=99990
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="t_60_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  pair_collision__tag:t="collidableToVehicle"
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
+  death_desc__victimTeam:i=2
+  death_desc__offenderTeam:i=1
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=10
+      turret__yawSpeed:r=66
+      turret_ai__amplitude:p2=0.01, 0.6
+      gun_deviation__maxDeviation:r=1.5
+      turret__limit:p4=-180, 180, 23, 79
+      gun_spread__maxDeltaAngle:r=0.5
+      gun_deviation__onShotDeviationChange:r=0.05
+      turret_ai__attackTimerr:r=0.1
+      turret_ai__maxWindow:p2=0, 0
+      turret_ai__sleepTimer:r=0.12
+      turret_ai__atackDist:r=1200
+      turret_ai__period:p2=0.02, 0.2
+      turret__pitchSpeed:r=66
+      turret_ai__pauseTimer:r=1
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=9999999
+      }
+
+      "gun__ammoSetsInfo:shared:array"{
+        "gun__ammoSetsInfo:array"{
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/25mm_72k_defaultset_bullet_2.blk"
+            name:t="25mm_br_132"
+            type:t="ap_t"
+          }
+
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/85mm_d5s_85mm_ussr_hvap.blk"
+            name:t="85mm_br_367p"
+            type:t="apcr_tank"
+          }
+
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/57mm_zis2_57mm_ussr_apcbc.blk"
+            name:t="25mm_br_132"
+            type:t="ap_t"
+          }
+        }
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+tankgun_25mm_72k+turret_with_several_types_of_shells+main_turret"
+      turretName:t="turret_01"
+    }
+  }
+}
+
+entity{
+  _template:t="builded_auto_turret"
+  transform:m=[[-0.488514, -0.0152661, 0.872422] [-0.0312348, 0.999512, 0] [-0.871997, -0.0272499, -0.488753] [-1471.21, 1.08588, -1009.1]]
+  team:i=1
+  hitpoints__hp:r=99990
+  hitpoints__maxHp:r=99990
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="towed_at_2pdr_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
+
+  "animchar__objTexReplace:object"{
+    "uk_camo_very_dark_drab*":t="ussr_camo_green*"
+  }
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=10
+      turret_ai__amplitude:p2=0.01, 0.03
+      gun_deviation__maxDeviation:r=1.5
+      turret__limit:p4=-80, 80, 12, 66
+      gun_spread__maxDeltaAngle:r=0.5
+      gun_deviation__onShotDeviationChange:r=0.05
+      turret_ai__attackTimerr:r=0.1
+      turret_ai__maxWindow:p2=0, 0
+      turret_ai__sleepTimer:r=0.09
+      turret_ai__atackDist:r=1260
+      turret_ai__period:p2=0.06, 0.1
+      turret_ai__pauseTimer:r=1
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=0
+        gun__shellsAmmo:i=9999999
+      }
+
+      "gun__ammoSetsInfo:shared:array"{
+        "gun__ammoSetsInfo:array"{
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
+            name:t="ap_i_t_ball_bzt_44"
+            type:t="ap_i_t_ball"
+          }
+
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/25mm_72k_25mm_ussr_72k_he.blk"
+            name:t="25mm_ozr_132"
+            type:t="frag_i_t"
+          }
+
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_2.blk"
+            name:t="ap_i_t_ball_bzt_44"
+            type:t="ap_i_t_ball"
+          }
+
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/25mm_72k_25mm_ussr_72k_he.blk"
+            name:t="25mm_ozr_132"
+            type:t="frag_i_t"
+          }
+
+          "gun__ammoSetsInfo:object"{
+            blk:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_3.blk"
+            name:t="apcr_i_ball_bs41"
+            type:t="apcr_i_ball"
+          }
+        }
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+tankgun_12_7mm_dshk_gaz+turret_with_several_types_of_shells+main_turret"
+      turretName:t="turret_01"
+    }
+  }
+}
+
+entity{
+  _template:t="opel_blitz_kfz_305+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.511244, 0.0111682, 0.859363] [0.00903651, 0.99993, -0.00761905] [-0.859388, 0.00387045, -0.511309] [-1436.15, 2.24954, -1159.38]]
+  vehicle_net_phys__blk:t="gamedata/gen/units/tanks/bt_7_1937.blk:VehiclePhys"
+
+  "car_painting__possibleColors:array"{
+    "car_painting__possibleColors:object"{
+      color:t="vehicle_color_military_green"
+    }
+  }
+}
+
+entity{
+  _template:t="it_ab_41"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1435.39, 2.09472, -1150.39]]
+  animchar__res:t="pv_opel_blitz_kfz_305_char"
+  collres__res:t="pv_opel_blitz_kfz_305_collision"
+  vehicle_net_phys__blk:t="content/e_ww2_common/gamedata/units/vehicles/opel_blitz_kfz_305.blk:VehiclePhys"
+  damage_model__blk:t="content/e_ww2_common/gamedata/units/vehicles/opel_blitz_kfz_305.blk"
+
+  "animchar__objTexReplace:object"{
+    "vehicle_color_battleship_gray*":t="uk_camo_earth_yellow*"
+  }
+}
+
+entity{
+  _template:t="ussr_bm_8_24_common"
+  transform:m=[[-0.681032, -0.0185674, 0.732018] [0.0136645, 0.999182, 0.0380567] [-0.732126, 0.0359205, -0.680221] [-1376.54, 1.38045, -1147.14]]
+  animchar__res:t="bm_13n_char"
+  collres__res:t="bm_13n_collision"
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/gameobjs/bm_13n.blk"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.232, 0, 0] [0, 2.232, 0] [0, 0, 2.232] [-1437.88, 1.10436, -1128.73]]
+  ri_extra__name:t="ammunition_box_b"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.232, 0, 0] [0, 2.232, 0] [0, 0, 2.232] [-1437.42, 1.10436, -1129.94]]
+  ri_extra__name:t="ammunition_box_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.232, 0, 0] [0, 2.232, 0] [0, 0, 2.232] [-1438.35, 1.10436, -1129.91]]
+  ri_extra__name:t="ammunition_box_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.232, 0, 0] [0, 2.232, 0] [0, 0, 2.232] [-1437.08, 1.10436, -1128.76]]
+  ri_extra__name:t="ammunition_box_b"
+}
+
+entity{
+  _template:t="germ_pzkpfw_II_ausf_C+base_flak_36_sdkfz_6_2"
+  transform:m=[[0.556034, -0.0192407, -0.830937] [0.0114164, 0.999814, -0.0155116] [0.831081, -0.000861296, 0.556151] [-1359.39, -0.00863535, -1242.5]]
+  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
+  team:i=-1
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  vehicle_seats__restrictToTeam:i=-1
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
+
+  "turret_gun_flash_fx__flashFxScale:shared:array"{
+    turret_gun_flash_fx__flashFxScale:r=1
+  }
+
+  "turret_control__emitterNodes:shared:array"{
+    turret_control__emitterNodes:t="bone_gun_barrel"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      turret__limit:p4=-180, 180, 20, 85
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=0
+        gun__shellsAmmo:i=99999
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      salt:i=1
+      gun:t="flak_36_sdkfz_6_2_turret_01_37mm_flak36++gunsound_25mm_72k+base_25mm_72k+turret_with_several_types_of_shells+main_turret"
+      barrelDm:t="gun_barrel"
+      breechDm:t="cannon_breech"
+      turretName:t="turret_01"
+      verDriveDm:t="drive_turret_v"
+      horDriveDm:t="drive_turret_h"
+    }
+  }
+
+  "vehicle_seats__seats:shared:array"{
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="gunner"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
+      cameraOffset:p3=-2.2, 0.6, 0
+      name:t="main_gunner"
+      seatComponent:t="isGunner"
+      cameraNodeName:t="bone_camera_gunner"
+      cameraType:t="machinegunner_cockpit"
+      attachNode:t="gunner"
+      nextSeat:t="driver"
+      locName:t="vehicle_seats/gunner"
+      ignoreAttachNodeRotation:b=yes
+      shouldHideOwner:b=no
+
+      "turretNames:array"{
+        turretNames:t="turret_01"
+      }
+    }
+  }
+
+  "animchar__objTexReplace:object"{
+    "ger_camo_grey*":t="ussr_camo_green*"
+  }
+
+  "disableDMParts:list<t>"{
+    item:t="superstructure_back"
+    item:t="superstructure_top"
+    item:t="superstructure_side"
+    item:t="superstructure_front"
+    item:t="ex_armor_01"
+    item:t="body_bottom"
+    item:t="body_side"
+    item:t="body_front"
+    item:t="wheel_r_05"
+    item:t="wheel_r_04"
+    item:t="wheel_r_03"
+    item:t="wheel_r_02"
+    item:t="wheel_r_01"
+    item:t="wheel_r_07"
+    item:t="wheel_r_drive"
+    item:t="wheel_r_06"
+    item:t="wheel_l_04"
+    item:t="wheel_l_03"
+    item:t="wheel_l_02"
+    item:t="wheel_l_01"
+    item:t="wheel_l_07"
+    item:t="wheel_l_drive"
+    item:t="wheel_l_06"
+    item:t="wheel_l_05"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="ammo_turret_03"
+    item:t="ammo_turret_04"
+    item:t="ammo_turret_05"
+    item:t="ammo_turret_06"
+    item:t="ammo_turret_07"
+    item:t="ammo_turret_07"
+    item:t="ammo_turret_09"
+    item:t="ammo_turret_10"
+    item:t="ammo_turret_11"
+    item:t="ammo_turret_12"
+    item:t="ammo_turret_13"
+    item:t="ammo_turret_14"
+    item:t="ammo_turret_15"
+    item:t="ammo_turret_16"
+    item:t="ammo_turret_17"
+    item:t="ammo_turret_18"
+    item:t="ex_decor_l_09"
+    item:t="ex_decor_l_08"
+    item:t="ex_decor_l_07"
+    item:t="ex_decor_l_06"
+    item:t="ex_decor_l_05"
+    item:t="ex_decor_l_04"
+    item:t="ex_decor_l_03"
+    item:t="ex_decor_r_09"
+    item:t="ex_decor_r_08"
+    item:t="ex_decor_r_07"
+    item:t="ex_decor_r_06"
+    item:t="ex_decor_r_05"
+    item:t="ex_decor_r_04"
+    item:t="ex_decor_r_03"
+    item:t="ex_decor_l_02"
+    item:t="ex_decor_r_02"
+    item:t="ex_decor_l_01"
+    item:t="ex_decor_r_01"
+    item:t="engine"
+    item:t="fuel_tank"
+    item:t="radiator"
+    item:t="ex_decor_03"
+    item:t="ex_decor_01"
+    item:t="driver"
+    item:t="transmission"
+    item:t="track_r"
+    item:t="track_l"
+  }
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[-0.888345, 0, 0.459178] [0, 1, 0] [-0.459178, 0, -0.888345] [-1356.71, -0.678604, -1245.61]]
+  ri_extra__name:t="russia_bunker_pillbox_c_walls"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.650392, 0, -0.7596] [0, 1, 0] [0.7596, -0, 0.650392] [-88.4092, 53.9448, -1005.54]]
+  ri_extra__name:t="russia_bunker_pillbox_c_walls"
+}
+
+entity{
+  _template:t="germ_pzkpfw_II_ausf_C+base_flak_36_sdkfz_6_2+anti_aircraft_cannon_common"
+  transform:m=[[-0.202651, -0.0191543, 0.979064] [-0.00471433, 0.999816, 0.0185845] [-0.979239, -0.00084947, -0.202704] [-86.5577, 55.0992, -1015.22]]
+  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
+  team:i=-1
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  vehicle_seats__restrictToTeam:i=-1
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
+
+  "turret_gun_flash_fx__flashFxScale:shared:array"{
+    turret_gun_flash_fx__flashFxScale:r=1
+  }
+
+  "turret_control__emitterNodes:shared:array"{
+    turret_control__emitterNodes:t="bone_gun_barrel"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      turret__limit:p4=-180, 180, 20, 85
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=0
+        gun__shellsAmmo:i=99999
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      salt:i=1
+      gun:t="flak_36_sdkfz_6_2_turret_01_37mm_flak36++gunsound_25mm_72k+base_25mm_72k+turret_with_several_types_of_shells+main_turret"
+      barrelDm:t="gun_barrel"
+      breechDm:t="cannon_breech"
+      turretName:t="turret_01"
+      verDriveDm:t="drive_turret_v"
+      horDriveDm:t="drive_turret_h"
+    }
+  }
+
+  "vehicle_seats__seats:shared:array"{
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="gunner"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
+      cameraOffset:p3=-2.2, 0.6, 0
+      name:t="main_gunner"
+      seatComponent:t="isGunner"
+      cameraNodeName:t="bone_camera_gunner"
+      cameraType:t="machinegunner_cockpit"
+      attachNode:t="gunner"
+      nextSeat:t="driver"
+      locName:t="vehicle_seats/gunner"
+      ignoreAttachNodeRotation:b=yes
+      shouldHideOwner:b=no
+
+      "turretNames:array"{
+        turretNames:t="turret_01"
+      }
+    }
+  }
+
+  "animchar__objTexReplace:object"{
+    "ger_camo_grey*":t="ussr_camo_green*"
+  }
+
+  "disableDMParts:list<t>"{
+    item:t="superstructure_back"
+    item:t="superstructure_top"
+    item:t="superstructure_side"
+    item:t="superstructure_front"
+    item:t="ex_armor_01"
+    item:t="body_bottom"
+    item:t="body_side"
+    item:t="body_front"
+    item:t="wheel_r_05"
+    item:t="wheel_r_04"
+    item:t="wheel_r_03"
+    item:t="wheel_r_02"
+    item:t="wheel_r_01"
+    item:t="wheel_r_07"
+    item:t="wheel_r_drive"
+    item:t="wheel_r_06"
+    item:t="wheel_l_04"
+    item:t="wheel_l_03"
+    item:t="wheel_l_02"
+    item:t="wheel_l_01"
+    item:t="wheel_l_07"
+    item:t="wheel_l_drive"
+    item:t="wheel_l_06"
+    item:t="wheel_l_05"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="ammo_turret_03"
+    item:t="ammo_turret_04"
+    item:t="ammo_turret_05"
+    item:t="ammo_turret_06"
+    item:t="ammo_turret_07"
+    item:t="ammo_turret_07"
+    item:t="ammo_turret_09"
+    item:t="ammo_turret_10"
+    item:t="ammo_turret_11"
+    item:t="ammo_turret_12"
+    item:t="ammo_turret_13"
+    item:t="ammo_turret_14"
+    item:t="ammo_turret_15"
+    item:t="ammo_turret_16"
+    item:t="ammo_turret_17"
+    item:t="ammo_turret_18"
+    item:t="ex_decor_l_09"
+    item:t="ex_decor_l_08"
+    item:t="ex_decor_l_07"
+    item:t="ex_decor_l_06"
+    item:t="ex_decor_l_05"
+    item:t="ex_decor_l_04"
+    item:t="ex_decor_l_03"
+    item:t="ex_decor_r_09"
+    item:t="ex_decor_r_08"
+    item:t="ex_decor_r_07"
+    item:t="ex_decor_r_06"
+    item:t="ex_decor_r_05"
+    item:t="ex_decor_r_04"
+    item:t="ex_decor_r_03"
+    item:t="ex_decor_l_02"
+    item:t="ex_decor_r_02"
+    item:t="ex_decor_l_01"
+    item:t="ex_decor_r_01"
+    item:t="engine"
+    item:t="fuel_tank"
+    item:t="radiator"
+    item:t="ex_decor_03"
+    item:t="ex_decor_01"
+    item:t="driver"
+    item:t="transmission"
+    item:t="track_r"
+    item:t="track_l"
+  }
+}
+
+entity{
+  _template:t="germ_pzkpfw_II_ausf_C+base_tgdgb_m40_lv+anti_aircraft_cannon_common"
+  transform:m=[[-0.20265, -0.0190536, 0.979066] [-0.00471269, 0.999818, 0.018482] [-0.97924, -0.000868658, -0.202703] [-54.9582, 55.2542, -1015.85]]
+  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
+  team:i=-1
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  vehicle_seats__restrictToTeam:i=-1
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_40mm_slow"
+  }
+
+  "turret_gun_flash_fx__flashFxScale:shared:array"{
+    turret_gun_flash_fx__flashFxScale:r=1
+  }
+
+  "turret_control__emitterNodes:shared:array"{
+    turret_control__emitterNodes:t="bone_gun_barrel"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=0.5
+      turret__limit:p4=-180, 180, 28, 60
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=0
+        gun__shellsAmmo:i=99999
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      salt:i=1
+      gun:t="tgdgb_m40_lv_turret_01_40mm_lva_kan_m36+base_85mm_zis_s_53+turret_with_several_types_of_shells+main_turret"
+      barrelDm:t="gun_barrel"
+      breechDm:t="cannon_breech"
+      turretName:t="turret_01"
+      verDriveDm:t="drive_turret_v"
+      horDriveDm:t="drive_turret_h"
+    }
+  }
+
+  "vehicle_seats__seats:shared:array"{
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="gunner"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
+      cameraOffset:p3=-2.2, 0.6, 0
+      name:t="main_gunner"
+      seatComponent:t="isGunner"
+      cameraNodeName:t="bone_camera_gunner"
+      cameraType:t="machinegunner_cockpit"
+      attachNode:t="gunner"
+      nextSeat:t="driver"
+      locName:t="vehicle_seats/gunner"
+      ignoreAttachNodeRotation:b=yes
+      shouldHideOwner:b=no
+
+      "turretNames:array"{
+        turretNames:t="turret_01"
+      }
+    }
+  }
+
+  "animchar__objTexReplace:object"{
+    "se_camo_green*":t="ussr_camo_green*"
+  }
+
+  "disableDMParts:list<t>"{
+    item:t="@root"
+    item:t="superstructure_back"
+    item:t="superstructure_top"
+    item:t="superstructure_side"
+    item:t="superstructure_front"
+    item:t="ex_armor_01"
+    item:t="body_bottom"
+    item:t="body_side"
+    item:t="body_front"
+    item:t="wheel_r_05"
+    item:t="wheel_r_04"
+    item:t="wheel_r_03"
+    item:t="wheel_r_02"
+    item:t="wheel_r_01"
+    item:t="wheel_r_07"
+    item:t="wheel_r_drive"
+    item:t="wheel_r_06"
+    item:t="wheel_l_04"
+    item:t="wheel_l_03"
+    item:t="wheel_l_02"
+    item:t="wheel_l_01"
+    item:t="wheel_l_07"
+    item:t="wheel_l_drive"
+    item:t="wheel_l_06"
+    item:t="wheel_l_05"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="ammo_turret_03"
+    item:t="ammo_turret_04"
+    item:t="ammo_turret_05"
+    item:t="ammo_turret_06"
+    item:t="ammo_turret_07"
+    item:t="ammo_turret_07"
+    item:t="ammo_turret_09"
+    item:t="ammo_turret_10"
+    item:t="ammo_turret_11"
+    item:t="ammo_turret_12"
+    item:t="ammo_turret_13"
+    item:t="ammo_turret_14"
+    item:t="ammo_turret_15"
+    item:t="ammo_turret_16"
+    item:t="ammo_turret_17"
+    item:t="ammo_turret_18"
+    item:t="ex_decor_l_09"
+    item:t="ex_decor_l_08"
+    item:t="ex_decor_l_07"
+    item:t="ex_decor_l_06"
+    item:t="ex_decor_l_05"
+    item:t="ex_decor_l_04"
+    item:t="ex_decor_l_03"
+    item:t="ex_decor_r_09"
+    item:t="ex_decor_r_08"
+    item:t="ex_decor_r_07"
+    item:t="ex_decor_r_06"
+    item:t="ex_decor_r_05"
+    item:t="ex_decor_r_04"
+    item:t="ex_decor_r_03"
+    item:t="ex_decor_l_02"
+    item:t="ex_decor_r_02"
+    item:t="ex_decor_l_01"
+    item:t="ex_decor_r_01"
+    item:t="engine"
+    item:t="fuel_tank"
+    item:t="radiator"
+    item:t="ex_decor_03"
+    item:t="ex_decor_01"
+    item:t="driver"
+    item:t="transmission"
+    item:t="track_r"
+    item:t="track_l"
+  }
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.708707, 0, -0.0250139] [0, 1, 0] [0.0250139, -0, 0.708707] [-86.1513, 54.794, -1033.12]]
+  ri_extra__name:t="russia_bunker_pillbox_c_walls"
+}
+
+entity{
+  _template:t="germ_pzkpfw_II_ausf_C+base_flak_36_sdkfz_6_2+anti_aircraft_cannon_common"
+  transform:m=[[-0.857924, -0.0188212, 0.513432] [-0.0167688, 0.999822, 0.00863107] [-0.513503, -0.00120485, -0.858087] [-83.5613, 55.742, -1034.7]]
+  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
+  team:i=-1
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  vehicle_seats__restrictToTeam:i=-1
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
+
+  "turret_gun_flash_fx__flashFxScale:shared:array"{
+    turret_gun_flash_fx__flashFxScale:r=1
+  }
+
+  "turret_control__emitterNodes:shared:array"{
+    turret_control__emitterNodes:t="bone_gun_barrel"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      turret__limit:p4=-180, 180, 20, 85
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=0
+        gun__shellsAmmo:i=99999
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      salt:i=1
+      gun:t="flak_36_sdkfz_6_2_turret_01_37mm_flak36++gunsound_25mm_72k+base_25mm_72k+turret_with_several_types_of_shells+main_turret"
+      barrelDm:t="gun_barrel"
+      breechDm:t="cannon_breech"
+      turretName:t="turret_01"
+      verDriveDm:t="drive_turret_v"
+      horDriveDm:t="drive_turret_h"
+    }
+  }
+
+  "vehicle_seats__seats:shared:array"{
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="gunner"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
+      cameraOffset:p3=-2.2, 0.6, 0
+      name:t="main_gunner"
+      seatComponent:t="isGunner"
+      cameraNodeName:t="bone_camera_gunner"
+      cameraType:t="machinegunner_cockpit"
+      attachNode:t="gunner"
+      nextSeat:t="driver"
+      locName:t="vehicle_seats/gunner"
+      ignoreAttachNodeRotation:b=yes
+      shouldHideOwner:b=no
+
+      "turretNames:array"{
+        turretNames:t="turret_01"
+      }
+    }
+  }
+
+  "animchar__objTexReplace:object"{
+    "ger_camo_grey*":t="ussr_camo_green*"
+  }
+
+  "disableDMParts:list<t>"{
+    item:t="superstructure_back"
+    item:t="superstructure_top"
+    item:t="superstructure_side"
+    item:t="superstructure_front"
+    item:t="ex_armor_01"
+    item:t="body_bottom"
+    item:t="body_side"
+    item:t="body_front"
+    item:t="wheel_r_05"
+    item:t="wheel_r_04"
+    item:t="wheel_r_03"
+    item:t="wheel_r_02"
+    item:t="wheel_r_01"
+    item:t="wheel_r_07"
+    item:t="wheel_r_drive"
+    item:t="wheel_r_06"
+    item:t="wheel_l_04"
+    item:t="wheel_l_03"
+    item:t="wheel_l_02"
+    item:t="wheel_l_01"
+    item:t="wheel_l_07"
+    item:t="wheel_l_drive"
+    item:t="wheel_l_06"
+    item:t="wheel_l_05"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="ammo_turret_03"
+    item:t="ammo_turret_04"
+    item:t="ammo_turret_05"
+    item:t="ammo_turret_06"
+    item:t="ammo_turret_07"
+    item:t="ammo_turret_07"
+    item:t="ammo_turret_09"
+    item:t="ammo_turret_10"
+    item:t="ammo_turret_11"
+    item:t="ammo_turret_12"
+    item:t="ammo_turret_13"
+    item:t="ammo_turret_14"
+    item:t="ammo_turret_15"
+    item:t="ammo_turret_16"
+    item:t="ammo_turret_17"
+    item:t="ammo_turret_18"
+    item:t="ex_decor_l_09"
+    item:t="ex_decor_l_08"
+    item:t="ex_decor_l_07"
+    item:t="ex_decor_l_06"
+    item:t="ex_decor_l_05"
+    item:t="ex_decor_l_04"
+    item:t="ex_decor_l_03"
+    item:t="ex_decor_r_09"
+    item:t="ex_decor_r_08"
+    item:t="ex_decor_r_07"
+    item:t="ex_decor_r_06"
+    item:t="ex_decor_r_05"
+    item:t="ex_decor_r_04"
+    item:t="ex_decor_r_03"
+    item:t="ex_decor_l_02"
+    item:t="ex_decor_r_02"
+    item:t="ex_decor_l_01"
+    item:t="ex_decor_r_01"
+    item:t="engine"
+    item:t="fuel_tank"
+    item:t="radiator"
+    item:t="ex_decor_03"
+    item:t="ex_decor_01"
+    item:t="driver"
+    item:t="transmission"
+    item:t="track_r"
+    item:t="track_l"
+  }
+}
+
+entity{
+  _template:t="game_rendinst_decor"
+  transform:m=[[0.00514912, 0, -0.999987] [0, 1, 0] [0.999987, -0, 0.00514912] [-54.7774, 56.5972, -1016.6]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52_dmg"
 }
