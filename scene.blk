@@ -6020,37 +6020,36 @@ entity{
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1380.19, 1.28404, -1139]]
 
   "vehicle_seats__seats:shared:array"{
-
-    "seats:object"{
-      name:t="driver"
-      locName:t="vehicle_seats/driver"
-      seatOwnsEntityControl:b=yes
-      attachNode:t="driver"
-      ignoreAttachNodeRotation:b=yes
-      attachTm:m=[[1.0, 0.0, 0.0] [0.0, 1.0, 0.0] [0.0, 0.0, 1.0] [-0.25, -0.25, 0.0]]
-      seatComponent:t="isDriver"
-      nextSeat:t="main_gunner"
-      shouldHideOwner:b=yes
+    "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="driver"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
+      name:t="driver"
+      seatComponent:t="isDriver"
       cameraNodeName:t="bone_camera_driver"
+      attachNode:t="driver"
+      seatOwnsEntityControl:b=yes
+      nextSeat:t="main_gunner"
+      locName:t="vehicle_seats/driver"
+      ignoreAttachNodeRotation:b=yes
+      shouldHideOwner:b=yes
     }
 
-    "seats:object"{
-      name:t="main_gunner"
-      locName:t="vehicle_seats/gunner"
-      attachNode:t="gunner"
-      ignoreAttachNodeRotation:b=yes
-      attachTm:m=[[1.0, 0.0, 0.0] [0.0, 1.0, 0.0] [0.0, 0.0, 1.0] [-0.25, -0.5, 0.0]]
-      cameraOffset:p3=-3.2, 1, 0
-      cameraType:t="machinegunner_cockpit"
-      seatComponent:t="isGunner"
-      nextSeat:t="driver"
-      shouldHideOwner:b=no
+    "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="gunner"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
+      cameraOffset:p3=-3.2, 1, 0
+      name:t="main_gunner"
+      seatComponent:t="isGunner"
       cameraNodeName:t="bone_camera_gunner"
+      cameraType:t="machinegunner_cockpit"
+      attachNode:t="gunner"
+      nextSeat:t="driver"
+      locName:t="vehicle_seats/gunner"
+      ignoreAttachNodeRotation:b=yes
+      shouldHideOwner:b=no
 
       "turretNames:array"{
-        turret:t="turret_01"
+        turretNames:t="turret_01"
       }
     }
   }
